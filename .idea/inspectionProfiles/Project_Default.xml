@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.lend" />
+          <option value="ui.maya_ui.long" />
+          <option value="ui.maya_ui.*" />
+          <option value="maya.cmds" />
+          <option value="maya.OpenMayaUI" />
+          <option value="effyRig" />
+          <option value="reload" />
+          <option value="long" />
+          <option value="ui.seCharacterManager" />
+          <option value="scripts.guides.Guides" />
+          <option value="seCharacterManager" />
+          <option value="seAutoRig" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

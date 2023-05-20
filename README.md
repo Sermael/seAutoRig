@@ -1,0 +1,6 @@
+# seAutoRig
+
+Auto Rigging System 
+
+
+
