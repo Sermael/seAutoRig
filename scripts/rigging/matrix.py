@@ -304,7 +304,3 @@ class SwitchConstraint():
                         cmds.connectAttr(decomposeMatrixO + '.or', item + '.r')
                     if self.scale:
                         cmds.connectAttr(decomposeMatrix + '.os', item + '.s')
-
-# sel = cmds.ls(sl=1)
-# switch = 'switch_ctl'
-# x = constraint(sel, mo=True, jnt=False, point=True, orient=True, scale=True)
