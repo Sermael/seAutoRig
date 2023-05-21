@@ -12,9 +12,9 @@ from PySide2 import QtWidgets
 from PySide2 import QtGui
 from shiboken2 import getCppPointer
 
-from .scripts import guides
-from .scripts import builder
-from .scripts import project
+import scripts.guides as guides
+import scripts.builder as builder
+import scripts.project as project
 
 importlib.reload(guides)
 importlib.reload(builder)
@@ -80,8 +80,8 @@ class WorkspaceControl(object):
 
 
 class AutoRig(QtWidgets.QWidget):
-    WINDOW_TITLE = 'Character Manager'
-    UI_NAME = 'CharacterManager'
+    WINDOW_TITLE = 'seAutoRig'
+    UI_NAME = 'seAutoRig'
     FILE_FILTERS = "Maya (*.ma *.mb);;Maya ASCII (*.ma);;Maya Binary (*.mb);;All Files (*.*)"
     selected_filter = "All Files (*.*)"
 
@@ -99,18 +99,16 @@ class AutoRig(QtWidgets.QWidget):
         self.setAutoFillBackground(True)
 
         # set qss file
-        qss_file = QtCore.QFile(
-            'C:/Users/e_che/Documents/maya/2020/scripts/seAutoRig/templates/manjaroMix.qss')
+        qss_file = QtCore.QFile('{}/templates/manjaroMix.qss'.format(main_path))
         if not qss_file.open(QtCore.QFile.ReadOnly | QtCore.QFile.Text):
             return
         qss = QtCore.QTextStream(qss_file)
-        # setup stylesheet
         self.setStyleSheet(qss.readAll())
 
+        self.create_workspace_control()
         self.create_widgets()
         self.create_layouts()
         self.create_connections()
-        self.create_workspace_control()
 
     def create_widgets(self):
         self.name_lab = QtWidgets.QLabel()
@@ -133,7 +131,7 @@ class AutoRig(QtWidgets.QWidget):
 
         self.thumbnail = QtWidgets.QLabel()
         self.thumbnail.setAlignment(QtCore.Qt.AlignBottom)
-        self.img = "{}/templates/header.jpg".format(main_path)
+        self.img = "{}/templates/seAutoRig_header.jpg".format(main_path)
         self.pix_map = QtGui.QPixmap(self.img)
         self.thumbnail.setPixmap(self.pix_map.scaled(400, 225))
         self.thumbnail.setAlignment(QtCore.Qt.AlignCenter)
@@ -508,10 +506,11 @@ class AutoRig(QtWidgets.QWidget):
         if file_path:
             return file_path
 
-# if __name__ == "__main__":
-#     workspace_control_name = BipedRig.get_workspace_control_name()
-#     if cmds.window(workspace_control_name, exists=True):
-#         cmds.deleteUI(workspace_control_name)
-#
-#     biped_rig = BipedRig()
-#     biped_rig.show()
+
+if __name__ == "__main__":
+    workspace_control_name = AutoRig.get_workspace_control_name()
+    if cmds.window(workspace_control_name, exists=True):
+        cmds.deleteUI(workspace_control_name)
+
+    biped_rig = AutoRig()
+    biped_rig.show()

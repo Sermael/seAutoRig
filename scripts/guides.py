@@ -1,3 +1,4 @@
+""" Guides module - Sergio Efigenio - 05/02/2023"""
 from maya import cmds
 from .project import assets_path
 

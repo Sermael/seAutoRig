@@ -1,3 +1,4 @@
+""" Create offset grp - Sergio Efigenio - 05/02/2023"""
 from maya import cmds
 
 

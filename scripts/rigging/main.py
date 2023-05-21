@@ -1,4 +1,4 @@
-""" Create Main module"""
+""" Create main module - Sergio Efigenio - 05/02/2023"""
 from maya import cmds
 from .node import Node
 from .offset import offset_grp

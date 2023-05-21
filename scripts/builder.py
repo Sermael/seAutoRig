@@ -1,6 +1,4 @@
-"""
-auto rig utils module
-"""
+""" Builder Auto Rigging System - Sergio Efigenio - 05/02/2023"""
 import importlib
 from maya import cmds
 from .project import assets_path

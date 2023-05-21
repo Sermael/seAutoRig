@@ -1,6 +1,8 @@
 # seAutoRig
 
-Auto Rigging System 
+Auto Rigging System
+
+![alt text](./templates/seAutoRig_prev.jpg)
 
 
 

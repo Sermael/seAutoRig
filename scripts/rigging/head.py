@@ -1,4 +1,4 @@
-""" Create head module"""
+""" Create head module - Sergio Efigenio - 05/02/2023"""
 from maya import cmds
 from . import offset
 

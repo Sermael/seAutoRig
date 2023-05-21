@@ -1,4 +1,4 @@
-""" Create Spine module"""
+""" Create spine module - Sergio Efigenio - 05/02/2023"""
 import importlib
 from maya import cmds
 

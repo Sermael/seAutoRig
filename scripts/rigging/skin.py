@@ -1,3 +1,4 @@
+""" Skin Weights - Sergio Efigenio - 05/02/2023"""
 import json
 import maya.api.OpenMaya as om
 import maya.cmds as cmds
