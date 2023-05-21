@@ -12,5 +12,5 @@ if __name__ == "__main__":
     if cmds.window(workspace_control_name, exists=True):
         cmds.deleteUI(workspace_control_name)
 
-    biped_rig = ui.AutoRig()
-    biped_rig.show()
+    auto_rig = ui.AutoRig()
+    auto_rig.show()

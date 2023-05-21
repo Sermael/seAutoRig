@@ -1,3 +1,4 @@
+""" seAutoRig User Interface - Sergio Efigenio - 05/02/2023"""
 # -*- coding: utf-8 -*-
 import os
 import sys
