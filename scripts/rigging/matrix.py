@@ -2,7 +2,7 @@
 import maya.cmds as cmds
 
 
-class constraint:
+class Constraint:
     def __init__(self, node, mo, jnt, point, orient, scale):
 
         """

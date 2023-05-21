@@ -366,13 +366,13 @@ class Extremity(object):
         ctl_grp_2 = '{0}_{1}_Bend_00_CTL_OFF'.format(self.side, self.limb)
         ctl_grp_3 = '{0}_{1}_Bend_02_CTL_OFF'.format(self.side, self.limb)
 
-        matrix.constraint([self.jnt_chain[1], ctl_grp_1], mo=False, jnt=False, point=True, orient=True, scale=False)
+        matrix.Constraint([self.jnt_chain[1], ctl_grp_1], mo=False, jnt=False, point=True, orient=True, scale=False)
 
         # matrix.SwitchConstraint([jnt_chain[1], fk_chain[1], ctl_grp_1], switch_ctl=switch[0], switch_attr='IKSwitch',
         #                  mo=False, jnt=False, point=True, orient=True, scale=False)
 
-        matrix.constraint([self.jnt_chain[0], ctl_grp_2], mo=False, jnt=False, point=False, orient=True, scale=False)
-        matrix.constraint([self.jnt_chain[1], ctl_grp_3], mo=False, jnt=False, point=False, orient=True, scale=False)
+        matrix.Constraint([self.jnt_chain[0], ctl_grp_2], mo=False, jnt=False, point=False, orient=True, scale=False)
+        matrix.Constraint([self.jnt_chain[1], ctl_grp_3], mo=False, jnt=False, point=False, orient=True, scale=False)
 
         cmds.pointConstraint(self.jnt_chain[0], ctl1, ctl_grp_2, mo=False)
         cmds.pointConstraint(ctl1, self.jnt_chain[2], ctl_grp_3, mo=False)
@@ -667,7 +667,7 @@ class Extremity(object):
         # -- Switch position and parent
         sw_pos = -self.ctlSize * 2 if self.side == 'L' else -self.ctlSize * 2
         cmds.setAttr('{}_{}_Switch_CTL_OFF'.format(self.side, self.limb) + '.translateZ', sw_pos)
-        matrix.constraint([self.jnt_chain[2], '{}_{}_Switch_CTL_OFF'.format(self.side, self.limb)],
+        matrix.Constraint([self.jnt_chain[2], '{}_{}_Switch_CTL_OFF'.format(self.side, self.limb)],
                           mo=True, jnt=False, point=True, orient=True, scale=True)
         cmds.parent('{}_{}_Switch_CTL_GRP'.format(self.side, self.limb), ctl_group)
         cmds.setAttr(switch[0] + '.IKSwitch', 1)
@@ -700,7 +700,7 @@ class Extremity(object):
             cmds.connectAttr(switch[0] + '.IKSwitch', '{}_ball_IKH_RP.ikBlend'.format(self.side))
             cmds.rename('{}_ball1'.format(self.side), '{}_ball_FK_CTL'.format(self.side))
             cmds.rename('{}_ball_end1'.format(self.side), '{}_ball_end_FK_CTL'.format(self.side))
-            matrix.constraint(['{}_ball_FK_CTL'.format(self.side), '{}_ball'.format(self.side)],
+            matrix.Constraint(['{}_ball_FK_CTL'.format(self.side), '{}_ball'.format(self.side)],
                               mo=True, jnt=True, point=False, orient=True, scale=False)
             cmds.setAttr('{}_ball.overrideEnabled'.format(self.side), 1)
             cmds.setAttr('{}_ball_end.overrideEnabled'.format(self.side), 1)
@@ -715,7 +715,7 @@ class Extremity(object):
                                     switch_ctl=switch[0], switch_attr='IKSwitch', mo=True, jnt=False, point=False,
                                     orient=True, scale=False)
 
-            matrix.constraint([self.jnt_chain[2], '{}_{}_Fingers_CTL_GRP'.format(self.side, self.limb)],
+            matrix.Constraint([self.jnt_chain[2], '{}_{}_Fingers_CTL_GRP'.format(self.side, self.limb)],
                               mo=False, jnt=False, point=True, orient=False, scale=False)
 
         # -- Color controls
@@ -748,8 +748,8 @@ class Extremity(object):
         cmds.delete(cmds.parentConstraint(self.jnt_chain[0], main_ctl[0] + '_GRP', mo=False))
         cmds.parent('{}_GRP'.format(main_ctl[0]), '{}_{}_CTL_GRP'.format(self.side, self.limb))
         cmds.parent('{}_{}_FK_CTL_GRP'.format(self.side, self.limb), main_ctl[0])
-        matrix.constraint([main_ctl[0], self.jnt_chain[0]], mo=True, jnt=False, point=True, orient=False, scale=False)
-        matrix.constraint([main_ctl[0], '{}_{}_JNT_OFF_GRP'.format(self.side, self.limb)],
+        matrix.Constraint([main_ctl[0], self.jnt_chain[0]], mo=True, jnt=False, point=True, orient=False, scale=False)
+        matrix.Constraint([main_ctl[0], '{}_{}_JNT_OFF_GRP'.format(self.side, self.limb)],
                           mo=True, jnt=False, point=True, orient=True, scale=True)
 
         if self.limb == 'Arm':

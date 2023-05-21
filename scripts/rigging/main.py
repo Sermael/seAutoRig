@@ -2,7 +2,7 @@
 from maya import cmds
 from .node import Node
 from .offset import offset_grp
-from .matrix import constraint
+from .matrix import Constraint
 
 
 class Main(object):
@@ -95,16 +95,16 @@ class Main(object):
         cmds.parent('L_Leg_BendSystem_GRP', rig_grp)
         cmds.parent('R_Leg_BendSystem_GRP', rig_grp)
 
-        constraint(['C_Chest_CTL', 'L_Clavicle_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
-        constraint(['C_Chest_CTL', 'R_Clavicle_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
-        constraint(['C_Pelvis_CTL', 'L_Leg_Main_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
-        constraint(['C_Pelvis_CTL', 'R_Leg_Main_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
+        Constraint(['C_Chest_CTL', 'L_Clavicle_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
+        Constraint(['C_Chest_CTL', 'R_Clavicle_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
+        Constraint(['C_Pelvis_CTL', 'L_Leg_Main_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
+        Constraint(['C_Pelvis_CTL', 'R_Leg_Main_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
 
         # --- Head effects
         cmds.parent('C_head_FK_CTL_GRP', 'C_Head_GRP')
 
-        constraint(['C_neck_02_FK_CTL', 'C_head_FK_CTL_OFF'], mo=True, jnt=False, point=True, orient=True, scale=False)
-        constraint(['C_Chest_CTL', 'C_neck_01_FK_CTL_OFF'], mo=True, jnt=False, point=True, orient=True, scale=False)
+        Constraint(['C_neck_02_FK_CTL', 'C_head_FK_CTL_OFF'], mo=True, jnt=False, point=True, orient=True, scale=False)
+        Constraint(['C_Chest_CTL', 'C_neck_01_FK_CTL_OFF'], mo=True, jnt=False, point=True, orient=True, scale=False)
 
         mdv1 = cmds.shadingNode('multiplyDivide', n="C_Head_MDV", au=True)
         cmds.connectAttr('C_head_FK_CTL_OFF_DM.outputRotate', mdv1 + '.i1')
