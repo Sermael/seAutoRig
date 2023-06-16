@@ -13,6 +13,9 @@ from PySide2 import QtWidgets
 from PySide2 import QtGui
 from shiboken2 import getCppPointer
 
+import scripts.utils as utils
+importlib.reload(utils)
+
 import scripts.guides as guides
 import scripts.builder as builder
 import scripts.project as project
@@ -247,7 +250,8 @@ class AutoRig(QtWidgets.QWidget):
         main_layout.addWidget(self.email)
 
     def create_connections(self):
-        self.tree.clicked.connect(self.display_image)
+        # self.tree.clicked.connect(self.display_image)
+        self.tree.clicked.connect(utils.display_image)
         self.new_scene_btn.clicked.connect(self.new_scene)
         self.open_btn.clicked.connect(self.open_file)
         self.import_btn.clicked.connect(self.import_file)
@@ -267,26 +271,26 @@ class AutoRig(QtWidgets.QWidget):
         self.workspace_control_instance = WorkspaceControl(self.get_workspace_control_name())
         self.workspace_control_instance.create(self.WINDOW_TITLE, self)
 
-    def display_image(self):
-        self.index = self.tree.selectedIndexes()[0]
-        self.path = self.tree.model().filePath(self.index)
-        self.name = self.tree.model().fileName(self.index)
-
-        self.parent_name = self.tree.model().fileName(self.index.parent())
-
-        if os.path.isfile(self.path):
-            self.char = os.path.split(os.path.dirname(self.path))[-2]
-            self.img = "{}/preview/{}_prev.jpg".format(self.char, self.name[:-3])
-        elif os.path.isdir(self.path):
-            if self.parent_name == 'assets':
-                self.img = "{}{}/preview/{}_geo_prev.jpg".format(assets_path, self.name, self.name)
-            else:
-                self.char = os.path.split(os.path.dirname(self.path))[-1]
-                self.img = "{}{}/preview/{}_geo_prev.jpg".format(assets_path, self.char, self.char)
-
-        self.pix_map = QtGui.QPixmap(self.img)
-        self.thumbnail.setPixmap(self.pix_map.scaled(400, 225))
-        self.thumbnail.setScaledContents(True)
+    # def display_image(self):
+    #     self.index = self.tree.selectedIndexes()[0]
+    #     self.path = self.tree.model().filePath(self.index)
+    #     self.name = self.tree.model().fileName(self.index)
+    #
+    #     self.parent_name = self.tree.model().fileName(self.index.parent())
+    #
+    #     if os.path.isfile(self.path):
+    #         self.char = os.path.split(os.path.dirname(self.path))[-2]
+    #         self.img = "{}/preview/{}_prev.jpg".format(self.char, self.name[:-3])
+    #     elif os.path.isdir(self.path):
+    #         if self.parent_name == 'assets':
+    #             self.img = "{}{}/preview/{}_geo_prev.jpg".format(assets_path, self.name, self.name)
+    #         else:
+    #             self.char = os.path.split(os.path.dirname(self.path))[-1]
+    #             self.img = "{}{}/preview/{}_geo_prev.jpg".format(assets_path, self.char, self.char)
+    #
+    #     self.pix_map = QtGui.QPixmap(self.img)
+    #     self.thumbnail.setPixmap(self.pix_map.scaled(400, 225))
+    #     self.thumbnail.setScaledContents(True)
 
     def snapshot(self):
         self.index = self.tree.selectedIndexes()[0]
