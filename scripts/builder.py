@@ -84,7 +84,7 @@ class Builder(object):
 
         c_skin = skin.SkinWeights(self.moduleName)
         c_skin.checkSkin()
-        print('Skinning: {} Done.'.format(self.moduleName))
+        print('DONE     Skin: {}'.format(self.moduleName))
 
     def save_rig(self):
         rig_file = rigs_scene_path % (assets_path, self.moduleName, self.moduleName)

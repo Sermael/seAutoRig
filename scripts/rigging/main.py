@@ -4,7 +4,6 @@ from .node import Node
 from .offset import offset_grp
 from .matrix import Constraint
 
-
 class Main(object):
     def __init__(self, characterName):
         self.characterName = characterName
@@ -127,18 +126,21 @@ class Main(object):
             cmds.setAttr(joint + '.radius', 0.5)
         cmds.select(clear=True)
 
-        skin_joints = [u'root', u'Spine00_JNT', u'Spine01_JNT', u'Spine02_JNT', u'Spine03_JNT', u'C_Chest_JNT',
-                       u'L_clavicle', u'R_clavicle', u'C_neck_01_FK_CTL', u'C_neck_02_FK_CTL', u'C_head_FK_CTL',
-                       u'L_UpperArm_Twist_01', u'L_UpperArm_Twist_00', u'L_UpperArm_Twist_02', u'L_UpperArm_Twist_03',
-                       u'L_LowerArm_Twist_01', u'L_LowerArm_Twist_00', u'L_LowerArm_Twist_02', u'L_LowerArm_Twist_03',
-                       u'L_LowerArm_Twist_05', u'L_UpperLeg_Twist_01', u'L_UpperLeg_Twist_00', u'L_UpperLeg_Twist_02',
-                       u'L_UpperLeg_Twist_03', u'L_LowerLeg_Twist_01', u'L_LowerLeg_Twist_00', u'L_LowerLeg_Twist_02',
-                       u'L_LowerLeg_Twist_03', u'L_LowerLeg_Twist_05', u'R_UpperLeg_Twist_01', u'R_UpperLeg_Twist_00',
-                       u'R_UpperLeg_Twist_02', u'R_UpperLeg_Twist_03', u'R_LowerLeg_Twist_01', u'R_LowerLeg_Twist_00',
-                       u'R_LowerLeg_Twist_02', u'R_LowerLeg_Twist_03', u'R_LowerLeg_Twist_05', u'L_ankle|L_ball',
-                       u'R_ankle|R_ball', u'L_ankle|L_ball|L_ball', u'R_ankle|R_ball|R_ball', u'R_UpperArm_Twist_01',
-                       u'R_UpperArm_Twist_00', u'R_UpperArm_Twist_02', u'R_UpperArm_Twist_03', u'R_LowerArm_Twist_01',
-                       u'R_LowerArm_Twist_00', u'R_LowerArm_Twist_02', u'R_LowerArm_Twist_03', u'R_LowerArm_Twist_05']
+
+        # skin_joints = [u'root', u'Spine00_JNT', u'Spine01_JNT', u'Spine02_JNT', u'Spine03_JNT', u'C_Chest_JNT',
+        #                u'L_clavicle', u'R_clavicle', u'C_neck_01_FK_CTL', u'C_neck_02_FK_CTL', u'C_head_FK_CTL',
+        #                u'L_UpperArm_Twist_01', u'L_UpperArm_Twist_00', u'L_UpperArm_Twist_02', u'L_UpperArm_Twist_03',
+        #                u'L_LowerArm_Twist_01', u'L_LowerArm_Twist_00', u'L_LowerArm_Twist_02', u'L_LowerArm_Twist_03',
+        #                u'L_LowerArm_Twist_05', u'L_UpperLeg_Twist_01', u'L_UpperLeg_Twist_00', u'L_UpperLeg_Twist_02',
+        #                u'L_UpperLeg_Twist_03', u'L_LowerLeg_Twist_01', u'L_LowerLeg_Twist_00', u'L_LowerLeg_Twist_02',
+        #                u'L_LowerLeg_Twist_03', u'L_LowerLeg_Twist_05', u'R_UpperLeg_Twist_01', u'R_UpperLeg_Twist_00',
+        #                u'R_UpperLeg_Twist_02', u'R_UpperLeg_Twist_03', u'R_LowerLeg_Twist_01', u'R_LowerLeg_Twist_00',
+        #                u'R_LowerLeg_Twist_02', u'R_LowerLeg_Twist_03', u'R_LowerLeg_Twist_05', u'L_ankle|L_ball',
+        #                u'R_ankle|R_ball', u'L_ankle|L_ball|L_ball', u'R_ankle|R_ball|R_ball', u'R_UpperArm_Twist_01',
+        #                u'R_UpperArm_Twist_00', u'R_UpperArm_Twist_02', u'R_UpperArm_Twist_03', u'R_LowerArm_Twist_01',
+        #                u'R_LowerArm_Twist_00', u'R_LowerArm_Twist_02', u'R_LowerArm_Twist_03', u'R_LowerArm_Twist_05']
+        
+
 
     @staticmethod
     def customControl(name):

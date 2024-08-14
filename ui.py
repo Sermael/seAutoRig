@@ -8,21 +8,22 @@ import importlib
 import maya.OpenMayaUI as omui
 import maya.cmds as cmds
 
-from PySide2 import QtCore
-from PySide2 import QtWidgets
-from PySide2 import QtGui
-from shiboken2 import getCppPointer
+from PySide6 import QtCore
+from PySide6 import QtWidgets
+from PySide6 import QtGui
+from shiboken6 import getCppPointer
 
-import scripts.utils as utils
+from .scripts import utils
+from .scripts import guides
+from .scripts import builder
+from .scripts import project
+from .scripts.rigging import skin
+
 importlib.reload(utils)
-
-import scripts.guides as guides
-import scripts.builder as builder
-import scripts.project as project
-
 importlib.reload(guides)
 importlib.reload(builder)
 importlib.reload(project)
+importlib.reload(skin)
 
 main_path = project.main_path
 assets_path = '{}/assets/'.format(main_path)
@@ -33,7 +34,7 @@ class WorkspaceControl(object):
     def __init__(self, name):
         self.name = name
         self.widget = None
-
+        
     def create(self, label, widget, ui_script=None):
 
         cmds.workspaceControl(self.name, label=label)
@@ -179,7 +180,8 @@ class AutoRig(QtWidgets.QWidget):
         self.rig_btn = QtWidgets.QPushButton('Rig')
         self.rig_btn.setMinimumWidth(300)
         self.save_rig_btn = QtWidgets.QPushButton('Save Rig')
-        self.skin_btn = QtWidgets.QPushButton('Skin Selected Meshes')
+        self.export_skin_btn = QtWidgets.QPushButton('Export Skin')
+        self.import_skin_btn = QtWidgets.QPushButton('Import Skin')
         self.cancel_btn = QtWidgets.QPushButton('Close')
 
         self.autor = QtWidgets.QLabel()
@@ -231,6 +233,11 @@ class AutoRig(QtWidgets.QWidget):
         rig_layout.addWidget(self.save_rig_btn)
         button_layout.addLayout(rig_layout)
 
+        skin_layout = QtWidgets.QHBoxLayout()
+        skin_layout.addWidget(self.export_skin_btn)
+        skin_layout.addWidget(self.import_skin_btn)
+        button_layout.addLayout(skin_layout)
+
         button_layout.addWidget(self.line_end)
         # button_layout.addWidget(self.skin_btn)
         button_layout.addWidget(self.cancel_btn)
@@ -250,8 +257,8 @@ class AutoRig(QtWidgets.QWidget):
         main_layout.addWidget(self.email)
 
     def create_connections(self):
-        # self.tree.clicked.connect(self.display_image)
-        self.tree.clicked.connect(utils.display_image)
+        self.tree.clicked.connect(self.display_image)
+        # self.tree.clicked.connect(utils.display_image(self))
         self.new_scene_btn.clicked.connect(self.new_scene)
         self.open_btn.clicked.connect(self.open_file)
         self.import_btn.clicked.connect(self.import_file)
@@ -265,32 +272,35 @@ class AutoRig(QtWidgets.QWidget):
         self.save_guides_btn.clicked.connect(self.save_guides)
         self.rig_btn.clicked.connect(self.builder)
         self.save_rig_btn.clicked.connect(self.save_rig)
+        self.export_skin_btn.clicked.connect(self.export_skin)
+        self.import_skin_btn.clicked.connect(self.import_skin)
         self.cancel_btn.clicked.connect(self.close)
+
 
     def create_workspace_control(self):
         self.workspace_control_instance = WorkspaceControl(self.get_workspace_control_name())
         self.workspace_control_instance.create(self.WINDOW_TITLE, self)
 
-    # def display_image(self):
-    #     self.index = self.tree.selectedIndexes()[0]
-    #     self.path = self.tree.model().filePath(self.index)
-    #     self.name = self.tree.model().fileName(self.index)
-    #
-    #     self.parent_name = self.tree.model().fileName(self.index.parent())
-    #
-    #     if os.path.isfile(self.path):
-    #         self.char = os.path.split(os.path.dirname(self.path))[-2]
-    #         self.img = "{}/preview/{}_prev.jpg".format(self.char, self.name[:-3])
-    #     elif os.path.isdir(self.path):
-    #         if self.parent_name == 'assets':
-    #             self.img = "{}{}/preview/{}_geo_prev.jpg".format(assets_path, self.name, self.name)
-    #         else:
-    #             self.char = os.path.split(os.path.dirname(self.path))[-1]
-    #             self.img = "{}{}/preview/{}_geo_prev.jpg".format(assets_path, self.char, self.char)
-    #
-    #     self.pix_map = QtGui.QPixmap(self.img)
-    #     self.thumbnail.setPixmap(self.pix_map.scaled(400, 225))
-    #     self.thumbnail.setScaledContents(True)
+    def display_image(self):
+        self.index = self.tree.selectedIndexes()[0]
+        self.path = self.tree.model().filePath(self.index)
+        self.name = self.tree.model().fileName(self.index)
+    
+        self.parent_name = self.tree.model().fileName(self.index.parent())
+    
+        if os.path.isfile(self.path):
+            self.char = os.path.split(os.path.dirname(self.path))[-2]
+            self.img = "{}/preview/{}_prev.jpg".format(self.char, self.name[:-3])
+        elif os.path.isdir(self.path):
+            if self.parent_name == 'assets':
+                self.img = "{}{}/preview/{}_geo_prev.jpg".format(assets_path, self.name, self.name)
+            else:
+                self.char = os.path.split(os.path.dirname(self.path))[-1]
+                self.img = "{}{}/preview/{}_geo_prev.jpg".format(assets_path, self.char, self.char)
+    
+        self.pix_map = QtGui.QPixmap(self.img)
+        self.thumbnail.setPixmap(self.pix_map.scaled(400, 225))
+        self.thumbnail.setScaledContents(True)
 
     def snapshot(self):
         self.index = self.tree.selectedIndexes()[0]
@@ -372,15 +382,18 @@ class AutoRig(QtWidgets.QWidget):
         char_guides_dir = os.path.join(assets_path, char_name, 'guides')
         char_rig_dir = os.path.join(assets_path, char_name, 'rigs')
         preview = os.path.join(assets_path, char_name, 'preview')
+        skin_weights = os.path.join(assets_path, char_name, 'skin_weights')
 
         os.mkdir(char_dir)
         os.mkdir(char_model_dir)
         os.mkdir(char_guides_dir)
         os.mkdir(char_rig_dir)
         os.mkdir(preview)
+        os.mkdir(skin_weights)
 
         file_attr_hidden = 0x02
         ctypes.windll.kernel32.SetFileAttributesW(preview, file_attr_hidden)
+        ctypes.windll.kernel32.SetFileAttributesW(skin_weights, file_attr_hidden)
 
         self.tree.setCurrentIndex(self.model.index(assets_path + char_name))
 
@@ -511,6 +524,22 @@ class AutoRig(QtWidgets.QWidget):
         if file_path:
             return file_path
 
+    def export_skin(self):
+        selected_mesh = cmds.ls(sl=True)
+        name = self.name_le.text()
+        path = assets_path + name + "/skin_weights"
+        for mesh in selected_mesh:
+            skin_cluster_name = mesh + '_skinCluster'
+            cmds.deformerWeights(skin_cluster_name, export=True, deformer=skin_cluster_name, format="XML", path=path)
+
+    def import_skin(self):
+        selected_mesh = cmds.ls(sl=True)
+        name = self.name_le.text()
+        path = assets_path + name + "/skin_weights"
+        for mesh in selected_mesh:
+            skin_cluster_name = mesh + '_skinCluster'
+            cmds.deformerWeights(skin_cluster_name, im=True, deformer=skin_cluster_name, format="XML", path=path)
+            print('DONE     Imported: ' + skin_cluster_name)
 
 if __name__ == "__main__":
     workspace_control_name = AutoRig.get_workspace_control_name()

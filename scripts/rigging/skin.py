@@ -1,5 +1,5 @@
 """ Skin Weights - Sergio Efigenio - 05/02/2023"""
-import json
+import os
 import maya.api.OpenMaya as om
 import maya.cmds as cmds
 
@@ -9,7 +9,7 @@ from ..project import assets_path
 class SkinWeights(object):
     def __init__(self, moduleName=None):
         self.moduleName = moduleName
-        self.path = '%s%s/weights/' % (assets_path, self.moduleName)
+        self.path = '%s%s/skin_weights/' % (assets_path, self.moduleName)
 
         self.bindJoints = []
         self.mesh = []
@@ -41,18 +41,19 @@ class SkinWeights(object):
 
     def checkSkin(self):
         for mesh in self.mesh:
-            file_path = self.path + mesh + '.json'
+            skin_path = self.path + mesh + '_skinCluster'
+            file_path = self.path
             self.applySkin(mesh)
-            print('Skinned: ' + mesh)
-
-            # if os.path.isfile(file_path):
-            #     self.import_skin_weights(file_path)
-            # else:
-            #     self.export_skin_weights([mesh], self.bindJoints, file_path)
+            
+            if os.path.isfile(skin_path):
+                self.import_skin(mesh, file_path)
+            else:
+                self.export_skin(mesh, file_path)
 
     def applySkin(self, mesh):
         skin_cluster_name = mesh + '_skinCluster'
         cmds.skinCluster(self.bindJoints, mesh, n=skin_cluster_name, tsb=True, sm=10, bm=0)
+        print('DONE     Skin: ' + mesh)
 
     # Define a function to get skin cluster from a mesh
     def get_skin_cluster(self, mesh):
@@ -67,87 +68,129 @@ class SkinWeights(object):
             # Return the skin cluster node or None if not found
         return skin_cluster
 
-    # Define a function to export skin weights to a json file
-    def export_skin_weights(self, meshes, joints, file_path):
-        # Create an empty dictionary to store the data
-        data = {}
-        # Loop through each mesh
-        for mesh in meshes:
-            # Get the skin cluster of the mesh
-            skin_cluster = self.get_skin_cluster(mesh)
-            # Check if the mesh has a valid skin cluster
-            if not skin_cluster:
-                print("No skin cluster found for {}".format(mesh))
-                continue
-            # Get the dag path of the mesh using OpenMaya API 2.0
-            sel_list = om.MSelectionList()
-            sel_list.add(mesh)
-            dag_path = sel_list.getDagPath(0)
-            # Get the MFnMesh function set of the mesh using OpenMaya API 2.0
-            fn_mesh = om.MFnMesh(dag_path)
-            # Get the number of vertices of the mesh
-            num_verts = fn_mesh.numVertices
+    def export_skin(self, mesh, path):
+        skin_cluster_name = mesh + '_skinCluster'
+        cmds.deformerWeights(skin_cluster_name, export=True, deformer=skin_cluster_name, format="XML", path=path)
 
-            # Create an empty list to store the weights for each vertex
-            weights_list = []
 
-            # Loop through each vertex
-            for i in range(num_verts):
-                # Create an empty dictionary to store the weights for each joint
-                weights_dict = {}
+    def import_skin(self, mesh, path):
+        skin_cluster_name = mesh + '_skinCluster'
+        cmds.deformerWeights(skin_cluster_name, im=True, deformer=skin_cluster_name, format="XML", path=path)
+        print('DONE     Imported: ' + skin_cluster_name)
 
-                # Loop through each joint
-                for joint in joints:
-                    # Get the weight value of the joint for this vertex using Maya commands
-                    weight_value = cmds.skinPercent(skin_cluster, "{}.vtx[{}]".format(mesh, i), query=True,
-                                                    transform=joint)
-                    # Store the weight value in the dictionary with joint name as key
-                    weights_dict[joint] = weight_value
 
-                # Append this dictionary to the list
-                weights_list.append(weights_dict)
 
-            # Store this list in another dictionary with mesh name as key
-            data[mesh] = weights_list
 
-        # Write this dictionary to a json file using Python's built-in json module
-        with open(file_path, "w") as f:
-            json.dump(data, f, indent=4)
 
-    # Define a function to import skin weights from a json file
-    def import_skin_weights(self, file_path):
-        # Read data from json file using Python's built-in json module
-        with open(file_path) as f:
-            data = json.load(f)
 
-            # Loop through each key-value pair in data (mesh name and weights list)
-        for mesh, weights_list in data.items():
 
-            # Check if this mesh exists in scene
-            if not cmds.objExists(mesh):
-                print("Mesh {} does not exist".format(mesh))
-                continue
 
-            # Get the skin cluster of the mesh
-            skin_cluster = self.get_skin_cluster(mesh)
-            # Check if the mesh has a valid skin cluster
-            if not skin_cluster:
-                print("No skin cluster found for {}".format(mesh))
-                continue
 
-            # Get number of vertices on this mesh
-            num_verts = len(weights_list)
 
-            # Loop through each vertex index
-            for i in range(num_verts):
 
-                # Get weight values for this vertex (dictionary with joint names and values)
-                weights_dict = weights_list[i]
 
-                # Loop through each key-value pair (joint name and value)
-                for joint, value in weights_dict.items():
-                    # Set weight value on corresponding joint using Maya commands
-                    cmds.skinPercent(skin_cluster, "{}.vtx[{}]".format(mesh, i), transformValue=[(joint, value)])
+
+
+
+
+
+
+
+    # # Define a function to export skin weights to a json file
+    # def export_skin_weights(self, meshes, joints, file_path):
+    #     # Create an empty dictionary to store the data
+    #     data = {}
+    #     # Loop through each mesh
+    #     for mesh in meshes:
+    #         # Get the skin cluster of the mesh
+    #         skin_cluster = self.get_skin_cluster(mesh)
+    #         # Check if the mesh has a valid skin cluster
+    #         if not skin_cluster:
+    #             print("No skin cluster found for {}".format(mesh))
+    #             continue
+    #         # Get the dag path of the mesh using OpenMaya API 2.0
+    #         sel_list = om.MSelectionList()
+    #         sel_list.add(mesh)
+    #         dag_path = sel_list.getDagPath(0)
+    #         # Get the MFnMesh function set of the mesh using OpenMaya API 2.0
+    #         fn_mesh = om.MFnMesh(dag_path)
+    #         # Get the number of vertices of the mesh
+    #         num_verts = fn_mesh.numVertices
+
+    #         # Create an empty list to store the weights for each vertex
+    #         weights_list = []
+
+    #         # Loop through each vertex
+    #         for i in range(num_verts):
+    #             # Create an empty dictionary to store the weights for each joint
+    #             weights_dict = {}
+
+    #             # Loop through each joint
+    #             for joint in joints:
+    #                 # Get the weight value of the joint for this vertex using Maya commands
+    #                 weight_value = cmds.skinPercent(skin_cluster, "{}.vtx[{}]".format(mesh, i), query=True,
+    #                                                 transform=joint)
+    #                 # Store the weight value in the dictionary with joint name as key
+    #                 weights_dict[joint] = weight_value
+
+    #             # Append this dictionary to the list
+    #             weights_list.append(weights_dict)
+
+    #         # Store this list in another dictionary with mesh name as key
+    #         data[mesh] = weights_list
+
+    #     # Write this dictionary to a json file using Python's built-in json module
+    #     with open(file_path, "w") as f:
+    #         json.dump(data, f, indent=4)
+
+    # # Define a function to import skin weights from a json file
+    # def import_skin_weights(self, file_path):
+    #     # Read data from json file using Python's built-in json module
+    #     with open(file_path) as f:
+    #         data = json.load(f)
+
+    #         # Loop through each key-value pair in data (mesh name and weights list)
+    #     for mesh, weights_list in data.items():
+
+    #         # Check if this mesh exists in scene
+    #         if not cmds.objExists(mesh):
+    #             print("Mesh {} does not exist".format(mesh))
+    #             continue
+
+    #         # Get the skin cluster of the mesh
+    #         skin_cluster = self.get_skin_cluster(mesh)
+    #         # Check if the mesh has a valid skin cluster
+    #         if not skin_cluster:
+    #             print("No skin cluster found for {}".format(mesh))
+    #             continue
+
+    #         # Get number of vertices on this mesh
+    #         num_verts = len(weights_list)
+
+    #         # Loop through each vertex index
+    #         for i in range(num_verts):
+
+    #             # Get weight values for this vertex (dictionary with joint names and values)
+    #             weights_dict = weights_list[i]
+
+    #             # Loop through each key-value pair (joint name and value)
+    #             for joint, value in weights_dict.items():
+    #                 # Set weight value on corresponding joint using Maya commands
+    #                 cmds.skinPercent(skin_cluster, "{}.vtx[{}]".format(mesh, i), transformValue=[(joint, value)])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     # def exportSkin(self, mesh, file_path):
     #     skin_cluster = cmds.listConnections(mesh + 'Shape', type="skinCluster")[0]
