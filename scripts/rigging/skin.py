@@ -45,6 +45,7 @@ class SkinWeights(object):
             file_path = self.path
             self.applySkin(mesh)
             
+            
             if os.path.isfile(skin_path):
                 self.import_skin(mesh, file_path)
             else:
@@ -53,7 +54,7 @@ class SkinWeights(object):
     def applySkin(self, mesh):
         skin_cluster_name = mesh + '_skinCluster'
         cmds.skinCluster(self.bindJoints, mesh, n=skin_cluster_name, tsb=True, sm=10, bm=0)
-        print('DONE     Skin: ' + mesh)
+        print('Done: Skinned ' + mesh)
 
     # Define a function to get skin cluster from a mesh
     def get_skin_cluster(self, mesh):
@@ -76,16 +77,16 @@ class SkinWeights(object):
     def import_skin(self, mesh, path):
         skin_cluster_name = mesh + '_skinCluster'
         cmds.deformerWeights(skin_cluster_name, im=True, deformer=skin_cluster_name, format="XML", path=path)
-        print('DONE     Imported: ' + skin_cluster_name)
+        print('Done: Imported ' + skin_cluster_name)
+
+    def layered_skin_joints(self):
+        cmds.createDisplayLayer(self.bindJoints, name="Bind Joints", nr=True)
+
+    def set_skin_joints(self):
+        cmds.sets(self.bindJoints, name="Bind_Joints")
 
 
-
-
-
-
-
-
-
+        # createDisplayLayer -name "layer1" -number 1 -nr;
 
 
 

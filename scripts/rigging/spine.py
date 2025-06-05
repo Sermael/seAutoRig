@@ -134,7 +134,7 @@ class Spine(object):
         chest_ctl = cmds.circle(n='{}_Chest_CTL'.format(self.side), nr=(0, 1, 0), r=self.ctlSize * 0.8, ch=False)
         cmds.setAttr(chest_ctl[0] + 'Shape.overrideEnabled', True)
         cmds.setAttr(chest_ctl[0] + 'Shape.overrideColor', 18)
-        # cmds.setAttr(chest_ctl[0] + 'Shape.lineWidth', 1.5)
+        cmds.setAttr(chest_ctl[0] + 'Shape.lineWidth', 2)
         chest_jnt = cmds.joint(name='{}_Chest_JNT'.format(self.side))
         offset.offset_grp(chest_ctl, 'SDK')
         offset.offset_grp(chest_ctl, 'OFF')
@@ -146,7 +146,7 @@ class Spine(object):
         pelvis_ctl = cmds.circle(n='{}_Pelvis_CTL'.format(self.side), nr=(0, 1, 0), r=self.ctlSize, ch=False)
         cmds.setAttr(pelvis_ctl[0] + 'Shape.overrideEnabled', True)
         cmds.setAttr(pelvis_ctl[0] + 'Shape.overrideColor', 18)
-        # cmds.setAttr(pelvis_ctl[0] + 'Shape.lineWidth', 1.5)
+        cmds.setAttr(pelvis_ctl[0] + 'Shape.lineWidth', 2)
         offset.offset_grp(pelvis_ctl, 'SDK')
         offset.offset_grp(pelvis_ctl, 'OFF')
         cmds.delete(cmds.pointConstraint(spine_ctl[0], pelvis_ctl[0] + '_SDK', mo=False))
@@ -324,7 +324,7 @@ class Spine(object):
         root_ctl = cmds.circle(n='C_root_CTL', nr=(0, 1, 0), r=self.ctlSize * 1.5, d=1, s=15, ch=False)
         cmds.setAttr('C_root_CTLShape' + '.overrideEnabled', True)
         cmds.setAttr('C_root_CTLShape' + '.overrideColor', 17)
-        # cmds.setAttr('C_root_CTL.lineWidth', 1.5)
+        cmds.setAttr('C_root_CTL.lineWidth', 2)
         cmds.delete(cmds.parentConstraint(spine_ctl[0], root_ctl, mo=False))
         offset.offset_grp(root_ctl, 'GRP')
         offset.offset_grp(root_ctl, 'OFF')
@@ -332,8 +332,8 @@ class Spine(object):
         cmds.parent('C_root_CTL_GRP', 'C_Spine_GRP')
         cmds.parent('C_Spine00_CTL_SDK', 'C_root_CTL')
 
-        # for ctl in spine_ctl:
-        #     cmds.setAttr(ctl + 'Shape.lineWidth', 1.5)
+        for ctl in spine_ctl:
+            cmds.setAttr(ctl + 'Shape.lineWidth', 2)
 
         # print('Module: {}_{} Done.'.format(self.side, self.limb))
 

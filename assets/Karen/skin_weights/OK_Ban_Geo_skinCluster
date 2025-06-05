@@ -1,0 +1,517 @@
+<?xml version="1.0"?>
+<deformerWeight>
+  <headerInfo fileName="C:/Users/e_che/Documents/maya/2025/scripts/seAutoRig/assets/Karen/skin_weights/OK_Ban_Geo_skinCluster" worldMatrix="1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 "/>
+  <shape name="OK_Ban_GeoShape" group="0" stride="3" size="135" max="134">
+    <point index="0" value=" 1.051309 26.598589 0.266544"/>
+    <point index="1" value=" 1.166091 26.741268 0.234671"/>
+    <point index="2" value=" 0.914849 26.971380 1.339452"/>
+    <point index="3" value=" 1.023505 27.122629 1.288610"/>
+    <point index="4" value=" 1.038216 26.701252 0.837848"/>
+    <point index="5" value=" 1.195833 26.916203 0.783614"/>
+    <point index="6" value=" 0.994171 26.804714 1.118185"/>
+    <point index="7" value=" 1.142776 27.023609 1.061551"/>
+    <point index="8" value=" 1.038287 26.623404 0.546009"/>
+    <point index="9" value=" 1.200379 26.836626 0.492880"/>
+    <point index="10" value=" 1.020955 26.750137 0.979293"/>
+    <point index="11" value=" 1.102663 26.658913 0.222933"/>
+    <point index="12" value=" 1.199354 26.799036 0.346398"/>
+    <point index="13" value=" 1.033419 26.587709 0.398363"/>
+    <point index="14" value=" 1.070533 26.912834 1.090597"/>
+    <point index="15" value=" 1.090158 27.091644 1.193014"/>
+    <point index="16" value=" 0.946694 27.054951 1.347975"/>
+    <point index="17" value=" 0.943370 26.870985 1.250215"/>
+    <point index="18" value=" 1.121723 26.728527 0.520184"/>
+    <point index="19" value=" 1.198603 26.876028 0.638166"/>
+    <point index="20" value=" 1.039155 26.661575 0.692106"/>
+    <point index="21" value=" 1.170089 26.968723 0.922892"/>
+    <point index="22" value=" 1.024476 26.977325 1.223827"/>
+    <point index="23" value=" 1.123282 26.766300 0.666446"/>
+    <point index="24" value=" 1.100934 26.856344 0.952786"/>
+    <point index="25" value=" 1.119105 26.691643 0.373276"/>
+    <point index="26" value=" 1.044678 26.589186 0.254036"/>
+    <point index="27" value=" 1.100103 26.656492 0.199556"/>
+    <point index="28" value=" 1.171762 26.748922 0.216619"/>
+    <point index="29" value=" 1.020523 26.572287 0.402101"/>
+    <point index="30" value=" 1.024989 26.608294 0.549578"/>
+    <point index="31" value=" 1.210028 26.815762 0.341987"/>
+    <point index="32" value=" 1.212049 26.852734 0.488812"/>
+    <point index="33" value=" 0.897117 26.969460 1.352661"/>
+    <point index="34" value=" 0.932495 27.069227 1.366560"/>
+    <point index="35" value=" 1.022996 27.142338 1.297676"/>
+    <point index="36" value=" 1.024726 26.686232 0.841369"/>
+    <point index="37" value=" 1.008886 26.734474 0.983161"/>
+    <point index="38" value=" 0.982161 26.789011 1.122087"/>
+    <point index="39" value=" 1.206588 26.932793 0.779277"/>
+    <point index="40" value=" 1.180165 26.985662 0.918356"/>
+    <point index="41" value=" 1.151113 27.041414 1.056483"/>
+    <point index="42" value=" 0.930535 26.855558 1.253902"/>
+    <point index="43" value=" 1.099949 27.108570 1.188116"/>
+    <point index="44" value=" 1.026601 26.646086 0.695892"/>
+    <point index="45" value=" 1.209351 26.892599 0.633831"/>
+    <point index="46" value=" 0.905270 27.027872 1.373957"/>
+    <point index="47" value=" 0.922226 27.017176 1.354452"/>
+    <point index="48" value=" 0.986059 26.923031 1.237781"/>
+    <point index="49" value=" 1.032759 26.858475 1.104542"/>
+    <point index="50" value=" 1.061234 26.802988 0.966164"/>
+    <point index="51" value=" 1.081258 26.713816 0.679309"/>
+    <point index="52" value=" 1.081552 26.675100 0.533552"/>
+    <point index="53" value=" 1.076184 26.639648 0.385828"/>
+    <point index="54" value=" 1.071445 26.620337 0.233405"/>
+    <point index="55" value=" 1.066942 26.616053 0.211122"/>
+    <point index="56" value=" 1.134294 26.696892 0.192877"/>
+    <point index="57" value=" 1.135852 26.698141 0.216932"/>
+    <point index="58" value=" 1.160963 26.744341 0.360242"/>
+    <point index="59" value=" 1.161080 26.782499 0.506559"/>
+    <point index="60" value=" 1.162355 26.820419 0.652707"/>
+    <point index="61" value=" 1.136093 26.912151 0.938035"/>
+    <point index="62" value=" 1.107865 26.967529 1.076474"/>
+    <point index="63" value=" 1.057584 27.034243 1.208387"/>
+    <point index="64" value=" 0.983401 27.098772 1.331402"/>
+    <point index="65" value=" 0.969626 27.115988 1.349203"/>
+    <point index="66" value=" 1.063243 26.797182 0.949647"/>
+    <point index="67" value=" 1.102821 26.850628 0.936210"/>
+    <point index="68" value=" 1.138523 26.906208 0.921608"/>
+    <point index="69" value=" 1.122511 26.771160 0.683279"/>
+    <point index="70" value=" 1.161579 26.825306 0.669534"/>
+    <point index="71" value=" 1.080845 26.718498 0.696228"/>
+    <point index="72" value=" 1.027692 26.750471 0.961291"/>
+    <point index="73" value=" 1.041958 26.707857 0.836041"/>
+    <point index="74" value=" 1.043768 26.672285 0.707541"/>
+    <point index="75" value=" 1.190133 26.910433 0.784894"/>
+    <point index="76" value=" 1.193825 26.874317 0.656776"/>
+    <point index="77" value=" 1.168875 26.956015 0.908314"/>
+    <point index="78" value=" 1.072358 26.787569 0.936616"/>
+    <point index="79" value=" 1.085995 26.748369 0.827248"/>
+    <point index="80" value=" 1.125745 26.802986 0.813516"/>
+    <point index="81" value=" 1.111707 26.840948 0.923262"/>
+    <point index="82" value=" 1.164618 26.857170 0.799878"/>
+    <point index="83" value=" 1.147728 26.896175 0.908957"/>
+    <point index="84" value=" 1.129000 26.770973 0.701019"/>
+    <point index="85" value=" 1.167934 26.824945 0.687382"/>
+    <point index="86" value=" 1.087820 26.718309 0.713935"/>
+    <point index="87" value=" 1.040786 26.746212 0.946895"/>
+    <point index="88" value=" 1.052827 26.708925 0.836711"/>
+    <point index="89" value=" 1.054965 26.677389 0.723909"/>
+    <point index="90" value=" 1.192602 26.900562 0.788560"/>
+    <point index="91" value=" 1.196563 26.868374 0.676113"/>
+    <point index="92" value=" 1.174790 26.940239 0.897293"/>
+    <point index="93" value=" 1.059099 27.138136 1.253914"/>
+    <point index="94" value=" 1.053396 27.120850 1.252983"/>
+    <point index="95" value=" 1.017432 27.070751 1.275100"/>
+    <point index="96" value=" 0.985462 27.019695 1.291091"/>
+    <point index="97" value=" 0.950870 26.976778 1.306885"/>
+    <point index="98" value=" 0.918956 26.932907 1.316264"/>
+    <point index="99" value=" 0.904608 26.922592 1.322787"/>
+    <point index="100" value=" 1.194672 26.779007 0.262991"/>
+    <point index="101" value=" 1.186124 26.763824 0.268844"/>
+    <point index="102" value=" 1.150401 26.722149 0.282981"/>
+    <point index="103" value=" 1.112327 26.674112 0.295648"/>
+    <point index="104" value=" 1.075602 26.625757 0.304599"/>
+    <point index="105" value=" 1.039570 26.585758 0.311848"/>
+    <point index="106" value=" 1.027942 26.572004 0.309604"/>
+    <point index="107" value=" 1.038781 26.595682 0.253816"/>
+    <point index="108" value=" 1.062155 26.623642 0.210726"/>
+    <point index="109" value=" 1.093759 26.662394 0.199361"/>
+    <point index="110" value=" 1.126454 26.701113 0.192810"/>
+    <point index="111" value=" 1.021686 26.578093 0.309798"/>
+    <point index="112" value=" 1.013861 26.577646 0.401349"/>
+    <point index="113" value=" 1.018334 26.613607 0.548288"/>
+    <point index="114" value=" 1.164319 26.753412 0.216967"/>
+    <point index="115" value=" 1.187551 26.784258 0.263858"/>
+    <point index="116" value=" 1.202830 26.820253 0.341062"/>
+    <point index="117" value=" 1.204930 26.857264 0.487487"/>
+    <point index="118" value=" 0.890837 26.972803 1.346406"/>
+    <point index="119" value=" 0.900014 27.031702 1.368028"/>
+    <point index="120" value=" 0.926905 27.071968 1.360515"/>
+    <point index="121" value=" 0.962809 27.117239 1.343882"/>
+    <point index="122" value=" 1.017996 26.691257 0.839175"/>
+    <point index="123" value=" 1.002057 26.739065 0.980208"/>
+    <point index="124" value=" 0.975510 26.793104 1.118232"/>
+    <point index="125" value=" 1.199410 26.936806 0.776978"/>
+    <point index="126" value=" 1.172862 26.989126 0.915290"/>
+    <point index="127" value=" 1.143826 27.044317 1.052871"/>
+    <point index="128" value=" 0.924446 26.859055 1.248842"/>
+    <point index="129" value=" 0.898481 26.924786 1.315321"/>
+    <point index="130" value=" 1.093166 27.111031 1.183415"/>
+    <point index="131" value=" 1.053219 27.139763 1.247510"/>
+    <point index="132" value=" 1.019904 26.651325 0.694326"/>
+    <point index="133" value=" 1.202179 26.897015 0.632302"/>
+    <point index="134" value=" 1.016413 27.144564 1.292186"/>
+  </shape>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="C_head_FK_CTL" shape="OK_Ban_GeoShape" layer="0" defaultValue="0.000" size="135" max="134">
+    <point index="0" value="0.735"/>
+    <point index="1" value="0.733"/>
+    <point index="2" value="0.938"/>
+    <point index="3" value="0.954"/>
+    <point index="4" value="0.890"/>
+    <point index="5" value="0.885"/>
+    <point index="6" value="0.925"/>
+    <point index="7" value="0.930"/>
+    <point index="8" value="0.831"/>
+    <point index="9" value="0.825"/>
+    <point index="10" value="0.910"/>
+    <point index="11" value="0.718"/>
+    <point index="12" value="0.784"/>
+    <point index="13" value="0.785"/>
+    <point index="14" value="0.905"/>
+    <point index="15" value="0.947"/>
+    <point index="16" value="0.943"/>
+    <point index="17" value="0.937"/>
+    <point index="18" value="0.809"/>
+    <point index="19" value="0.859"/>
+    <point index="20" value="0.865"/>
+    <point index="21" value="0.910"/>
+    <point index="22" value="0.925"/>
+    <point index="23" value="0.841"/>
+    <point index="24" value="0.886"/>
+    <point index="25" value="0.767"/>
+    <point index="26" value="0.730"/>
+    <point index="27" value="0.710"/>
+    <point index="28" value="0.733"/>
+    <point index="29" value="0.788"/>
+    <point index="30" value="0.835"/>
+    <point index="31" value="0.790"/>
+    <point index="32" value="0.830"/>
+    <point index="33" value="0.941"/>
+    <point index="34" value="0.946"/>
+    <point index="35" value="0.957"/>
+    <point index="36" value="0.894"/>
+    <point index="37" value="0.913"/>
+    <point index="38" value="0.928"/>
+    <point index="39" value="0.889"/>
+    <point index="40" value="0.914"/>
+    <point index="41" value="0.933"/>
+    <point index="42" value="0.940"/>
+    <point index="43" value="0.950"/>
+    <point index="44" value="0.869"/>
+    <point index="45" value="0.864"/>
+    <point index="46" value="0.938"/>
+    <point index="47" value="0.936"/>
+    <point index="48" value="0.927"/>
+    <point index="49" value="0.914"/>
+    <point index="50" value="0.898"/>
+    <point index="51" value="0.853"/>
+    <point index="52" value="0.819"/>
+    <point index="53" value="0.776"/>
+    <point index="54" value="0.722"/>
+    <point index="55" value="0.714"/>
+    <point index="56" value="0.708"/>
+    <point index="57" value="0.716"/>
+    <point index="58" value="0.761"/>
+    <point index="59" value="0.806"/>
+    <point index="60" value="0.841"/>
+    <point index="61" value="0.897"/>
+    <point index="62" value="0.918"/>
+    <point index="63" value="0.937"/>
+    <point index="64" value="0.951"/>
+    <point index="65" value="0.953"/>
+    <point index="66" value="0.896"/>
+    <point index="67" value="0.884"/>
+    <point index="68" value="0.894"/>
+    <point index="69" value="0.844"/>
+    <point index="70" value="0.845"/>
+    <point index="71" value="0.856"/>
+    <point index="72" value="0.907"/>
+    <point index="73" value="0.889"/>
+    <point index="74" value="0.867"/>
+    <point index="75" value="0.884"/>
+    <point index="76" value="0.861"/>
+    <point index="77" value="0.906"/>
+    <point index="78" value="0.893"/>
+    <point index="79" value="0.877"/>
+    <point index="80" value="0.865"/>
+    <point index="81" value="0.881"/>
+    <point index="82" value="0.869"/>
+    <point index="83" value="0.890"/>
+    <point index="84" value="0.846"/>
+    <point index="85" value="0.846"/>
+    <point index="86" value="0.858"/>
+    <point index="87" value="0.902"/>
+    <point index="88" value="0.886"/>
+    <point index="89" value="0.867"/>
+    <point index="90" value="0.881"/>
+    <point index="91" value="0.860"/>
+    <point index="92" value="0.901"/>
+    <point index="93" value="0.956"/>
+    <point index="94" value="0.953"/>
+    <point index="95" value="0.945"/>
+    <point index="96" value="0.936"/>
+    <point index="97" value="0.931"/>
+    <point index="98" value="0.939"/>
+    <point index="99" value="0.942"/>
+    <point index="100" value="0.758"/>
+    <point index="101" value="0.751"/>
+    <point index="102" value="0.737"/>
+    <point index="103" value="0.743"/>
+    <point index="104" value="0.747"/>
+    <point index="105" value="0.752"/>
+    <point index="106" value="0.752"/>
+    <point index="107" value="0.733"/>
+    <point index="108" value="0.717"/>
+    <point index="109" value="0.713"/>
+    <point index="110" value="0.711"/>
+    <point index="111" value="0.755"/>
+    <point index="112" value="0.790"/>
+    <point index="113" value="0.837"/>
+    <point index="114" value="0.737"/>
+    <point index="115" value="0.762"/>
+    <point index="116" value="0.793"/>
+    <point index="117" value="0.833"/>
+    <point index="118" value="0.941"/>
+    <point index="119" value="0.939"/>
+    <point index="120" value="0.946"/>
+    <point index="121" value="0.954"/>
+    <point index="122" value="0.895"/>
+    <point index="123" value="0.914"/>
+    <point index="124" value="0.928"/>
+    <point index="125" value="0.891"/>
+    <point index="126" value="0.916"/>
+    <point index="127" value="0.934"/>
+    <point index="128" value="0.940"/>
+    <point index="129" value="0.942"/>
+    <point index="130" value="0.950"/>
+    <point index="131" value="0.956"/>
+    <point index="132" value="0.871"/>
+    <point index="133" value="0.866"/>
+    <point index="134" value="0.958"/>
+  </weights>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="C_neck_01_FK_CTL" shape="OK_Ban_GeoShape" layer="1" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="C_neck_02_FK_CTL" shape="OK_Ban_GeoShape" layer="2" defaultValue="0.000" size="135" max="134">
+    <point index="0" value="0.265"/>
+    <point index="1" value="0.267"/>
+    <point index="2" value="0.062"/>
+    <point index="3" value="0.046"/>
+    <point index="4" value="0.110"/>
+    <point index="5" value="0.115"/>
+    <point index="6" value="0.075"/>
+    <point index="7" value="0.070"/>
+    <point index="8" value="0.169"/>
+    <point index="9" value="0.175"/>
+    <point index="10" value="0.090"/>
+    <point index="11" value="0.282"/>
+    <point index="12" value="0.216"/>
+    <point index="13" value="0.215"/>
+    <point index="14" value="0.095"/>
+    <point index="15" value="0.053"/>
+    <point index="16" value="0.057"/>
+    <point index="17" value="0.063"/>
+    <point index="18" value="0.191"/>
+    <point index="19" value="0.141"/>
+    <point index="20" value="0.135"/>
+    <point index="21" value="0.090"/>
+    <point index="22" value="0.075"/>
+    <point index="23" value="0.159"/>
+    <point index="24" value="0.114"/>
+    <point index="25" value="0.233"/>
+    <point index="26" value="0.270"/>
+    <point index="27" value="0.290"/>
+    <point index="28" value="0.267"/>
+    <point index="29" value="0.212"/>
+    <point index="30" value="0.165"/>
+    <point index="31" value="0.210"/>
+    <point index="32" value="0.170"/>
+    <point index="33" value="0.059"/>
+    <point index="34" value="0.054"/>
+    <point index="35" value="0.043"/>
+    <point index="36" value="0.106"/>
+    <point index="37" value="0.087"/>
+    <point index="38" value="0.072"/>
+    <point index="39" value="0.111"/>
+    <point index="40" value="0.086"/>
+    <point index="41" value="0.067"/>
+    <point index="42" value="0.060"/>
+    <point index="43" value="0.050"/>
+    <point index="44" value="0.131"/>
+    <point index="45" value="0.136"/>
+    <point index="46" value="0.062"/>
+    <point index="47" value="0.064"/>
+    <point index="48" value="0.073"/>
+    <point index="49" value="0.086"/>
+    <point index="50" value="0.102"/>
+    <point index="51" value="0.147"/>
+    <point index="52" value="0.181"/>
+    <point index="53" value="0.224"/>
+    <point index="54" value="0.278"/>
+    <point index="55" value="0.286"/>
+    <point index="56" value="0.292"/>
+    <point index="57" value="0.284"/>
+    <point index="58" value="0.239"/>
+    <point index="59" value="0.194"/>
+    <point index="60" value="0.159"/>
+    <point index="61" value="0.103"/>
+    <point index="62" value="0.082"/>
+    <point index="63" value="0.063"/>
+    <point index="64" value="0.049"/>
+    <point index="65" value="0.047"/>
+    <point index="66" value="0.104"/>
+    <point index="67" value="0.116"/>
+    <point index="68" value="0.106"/>
+    <point index="69" value="0.156"/>
+    <point index="70" value="0.155"/>
+    <point index="71" value="0.144"/>
+    <point index="72" value="0.093"/>
+    <point index="73" value="0.111"/>
+    <point index="74" value="0.133"/>
+    <point index="75" value="0.116"/>
+    <point index="76" value="0.139"/>
+    <point index="77" value="0.094"/>
+    <point index="78" value="0.107"/>
+    <point index="79" value="0.123"/>
+    <point index="80" value="0.135"/>
+    <point index="81" value="0.119"/>
+    <point index="82" value="0.131"/>
+    <point index="83" value="0.110"/>
+    <point index="84" value="0.154"/>
+    <point index="85" value="0.154"/>
+    <point index="86" value="0.142"/>
+    <point index="87" value="0.098"/>
+    <point index="88" value="0.114"/>
+    <point index="89" value="0.133"/>
+    <point index="90" value="0.119"/>
+    <point index="91" value="0.140"/>
+    <point index="92" value="0.099"/>
+    <point index="93" value="0.044"/>
+    <point index="94" value="0.047"/>
+    <point index="95" value="0.055"/>
+    <point index="96" value="0.064"/>
+    <point index="97" value="0.069"/>
+    <point index="98" value="0.061"/>
+    <point index="99" value="0.058"/>
+    <point index="100" value="0.242"/>
+    <point index="101" value="0.249"/>
+    <point index="102" value="0.263"/>
+    <point index="103" value="0.257"/>
+    <point index="104" value="0.253"/>
+    <point index="105" value="0.248"/>
+    <point index="106" value="0.248"/>
+    <point index="107" value="0.267"/>
+    <point index="108" value="0.283"/>
+    <point index="109" value="0.287"/>
+    <point index="110" value="0.289"/>
+    <point index="111" value="0.245"/>
+    <point index="112" value="0.210"/>
+    <point index="113" value="0.163"/>
+    <point index="114" value="0.263"/>
+    <point index="115" value="0.238"/>
+    <point index="116" value="0.207"/>
+    <point index="117" value="0.167"/>
+    <point index="118" value="0.059"/>
+    <point index="119" value="0.061"/>
+    <point index="120" value="0.054"/>
+    <point index="121" value="0.046"/>
+    <point index="122" value="0.105"/>
+    <point index="123" value="0.086"/>
+    <point index="124" value="0.072"/>
+    <point index="125" value="0.109"/>
+    <point index="126" value="0.084"/>
+    <point index="127" value="0.066"/>
+    <point index="128" value="0.060"/>
+    <point index="129" value="0.058"/>
+    <point index="130" value="0.050"/>
+    <point index="131" value="0.044"/>
+    <point index="132" value="0.129"/>
+    <point index="133" value="0.134"/>
+    <point index="134" value="0.042"/>
+  </weights>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_clavicle" shape="OK_Ban_GeoShape" layer="3" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_clavicle" shape="OK_Ban_GeoShape" layer="4" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="C_Spine00" shape="OK_Ban_GeoShape" layer="5" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="C_Spine01" shape="OK_Ban_GeoShape" layer="6" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="C_Spine02" shape="OK_Ban_GeoShape" layer="7" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="C_Spine03" shape="OK_Ban_GeoShape" layer="8" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="C_Spine04" shape="OK_Ban_GeoShape" layer="9" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperLeg_Twist_00" shape="OK_Ban_GeoShape" layer="10" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperLeg_Twist_01" shape="OK_Ban_GeoShape" layer="11" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperLeg_Twist_02" shape="OK_Ban_GeoShape" layer="12" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperLeg_Twist_03" shape="OK_Ban_GeoShape" layer="13" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperLeg_Twist_04" shape="OK_Ban_GeoShape" layer="14" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperLeg_Twist_05" shape="OK_Ban_GeoShape" layer="15" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperArm_Twist_00" shape="OK_Ban_GeoShape" layer="16" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperArm_Twist_01" shape="OK_Ban_GeoShape" layer="17" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperArm_Twist_02" shape="OK_Ban_GeoShape" layer="18" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperArm_Twist_03" shape="OK_Ban_GeoShape" layer="19" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperArm_Twist_04" shape="OK_Ban_GeoShape" layer="20" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_UpperArm_Twist_05" shape="OK_Ban_GeoShape" layer="21" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerLeg_Twist_00" shape="OK_Ban_GeoShape" layer="22" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerLeg_Twist_01" shape="OK_Ban_GeoShape" layer="23" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerLeg_Twist_02" shape="OK_Ban_GeoShape" layer="24" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerLeg_Twist_03" shape="OK_Ban_GeoShape" layer="25" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerLeg_Twist_04" shape="OK_Ban_GeoShape" layer="26" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerLeg_Twist_05" shape="OK_Ban_GeoShape" layer="27" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerArm_Twist_00" shape="OK_Ban_GeoShape" layer="28" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerArm_Twist_01" shape="OK_Ban_GeoShape" layer="29" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerArm_Twist_02" shape="OK_Ban_GeoShape" layer="30" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerArm_Twist_03" shape="OK_Ban_GeoShape" layer="31" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerArm_Twist_04" shape="OK_Ban_GeoShape" layer="32" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_LowerArm_Twist_05" shape="OK_Ban_GeoShape" layer="33" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperLeg_Twist_00" shape="OK_Ban_GeoShape" layer="34" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperLeg_Twist_01" shape="OK_Ban_GeoShape" layer="35" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperLeg_Twist_02" shape="OK_Ban_GeoShape" layer="36" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperLeg_Twist_03" shape="OK_Ban_GeoShape" layer="37" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperLeg_Twist_04" shape="OK_Ban_GeoShape" layer="38" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperLeg_Twist_05" shape="OK_Ban_GeoShape" layer="39" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperArm_Twist_00" shape="OK_Ban_GeoShape" layer="40" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperArm_Twist_01" shape="OK_Ban_GeoShape" layer="41" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperArm_Twist_02" shape="OK_Ban_GeoShape" layer="42" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperArm_Twist_03" shape="OK_Ban_GeoShape" layer="43" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperArm_Twist_04" shape="OK_Ban_GeoShape" layer="44" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_UpperArm_Twist_05" shape="OK_Ban_GeoShape" layer="45" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerLeg_Twist_00" shape="OK_Ban_GeoShape" layer="46" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerLeg_Twist_01" shape="OK_Ban_GeoShape" layer="47" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerLeg_Twist_02" shape="OK_Ban_GeoShape" layer="48" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerLeg_Twist_03" shape="OK_Ban_GeoShape" layer="49" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerLeg_Twist_04" shape="OK_Ban_GeoShape" layer="50" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerLeg_Twist_05" shape="OK_Ban_GeoShape" layer="51" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerArm_Twist_00" shape="OK_Ban_GeoShape" layer="52" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerArm_Twist_01" shape="OK_Ban_GeoShape" layer="53" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerArm_Twist_02" shape="OK_Ban_GeoShape" layer="54" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerArm_Twist_03" shape="OK_Ban_GeoShape" layer="55" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerArm_Twist_04" shape="OK_Ban_GeoShape" layer="56" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_LowerArm_Twist_05" shape="OK_Ban_GeoShape" layer="57" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_ankle" shape="OK_Ban_GeoShape" layer="58" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_ball" shape="OK_Ban_GeoShape" layer="59" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_wrist" shape="OK_Ban_GeoShape" layer="60" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_pinky_00_FK_CTL" shape="OK_Ban_GeoShape" layer="61" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_pinky_01_FK_CTL" shape="OK_Ban_GeoShape" layer="62" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_pinky_02_FK_CTL" shape="OK_Ban_GeoShape" layer="63" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_pinky_03_FK_CTL" shape="OK_Ban_GeoShape" layer="64" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_ring_00_FK_CTL" shape="OK_Ban_GeoShape" layer="65" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_ring_01_FK_CTL" shape="OK_Ban_GeoShape" layer="66" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_ring_02_FK_CTL" shape="OK_Ban_GeoShape" layer="67" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_ring_03_FK_CTL" shape="OK_Ban_GeoShape" layer="68" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_middle_00_FK_CTL" shape="OK_Ban_GeoShape" layer="69" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_middle_01_FK_CTL" shape="OK_Ban_GeoShape" layer="70" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_middle_02_FK_CTL" shape="OK_Ban_GeoShape" layer="71" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_middle_03_FK_CTL" shape="OK_Ban_GeoShape" layer="72" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_index_00_FK_CTL" shape="OK_Ban_GeoShape" layer="73" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_index_01_FK_CTL" shape="OK_Ban_GeoShape" layer="74" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_index_02_FK_CTL" shape="OK_Ban_GeoShape" layer="75" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_index_03_FK_CTL" shape="OK_Ban_GeoShape" layer="76" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_thumb_00_FK_CTL" shape="OK_Ban_GeoShape" layer="77" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_thumb_01_FK_CTL" shape="OK_Ban_GeoShape" layer="78" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_thumb_02_FK_CTL" shape="OK_Ban_GeoShape" layer="79" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="L_thumb_03_FK_CTL" shape="OK_Ban_GeoShape" layer="80" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_ankle" shape="OK_Ban_GeoShape" layer="81" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_ball" shape="OK_Ban_GeoShape" layer="82" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_wrist" shape="OK_Ban_GeoShape" layer="83" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_pinky_00_FK_CTL" shape="OK_Ban_GeoShape" layer="84" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_pinky_01_FK_CTL" shape="OK_Ban_GeoShape" layer="85" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_pinky_02_FK_CTL" shape="OK_Ban_GeoShape" layer="86" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_pinky_03_FK_CTL" shape="OK_Ban_GeoShape" layer="87" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_ring_00_FK_CTL" shape="OK_Ban_GeoShape" layer="88" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_ring_01_FK_CTL" shape="OK_Ban_GeoShape" layer="89" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_ring_02_FK_CTL" shape="OK_Ban_GeoShape" layer="90" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_ring_03_FK_CTL" shape="OK_Ban_GeoShape" layer="91" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_middle_00_FK_CTL" shape="OK_Ban_GeoShape" layer="92" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_middle_01_FK_CTL" shape="OK_Ban_GeoShape" layer="93" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_middle_02_FK_CTL" shape="OK_Ban_GeoShape" layer="94" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_middle_03_FK_CTL" shape="OK_Ban_GeoShape" layer="95" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_index_00_FK_CTL" shape="OK_Ban_GeoShape" layer="96" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_index_01_FK_CTL" shape="OK_Ban_GeoShape" layer="97" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_index_02_FK_CTL" shape="OK_Ban_GeoShape" layer="98" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_index_03_FK_CTL" shape="OK_Ban_GeoShape" layer="99" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_thumb_00_FK_CTL" shape="OK_Ban_GeoShape" layer="100" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_thumb_01_FK_CTL" shape="OK_Ban_GeoShape" layer="101" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_thumb_02_FK_CTL" shape="OK_Ban_GeoShape" layer="102" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="OK_Ban_Geo_skinCluster" source="R_thumb_03_FK_CTL" shape="OK_Ban_GeoShape" layer="103" defaultValue="0.000" size="0" max="0"/>
+</deformerWeight>

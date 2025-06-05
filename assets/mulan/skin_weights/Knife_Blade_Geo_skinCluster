@@ -1,0 +1,716 @@
+<?xml version="1.0"?>
+<deformerWeight>
+  <headerInfo fileName="C:/Users/e_che/Documents/maya/2025/scripts/seAutoRig/assets/mulan/skin_weights/Knife_Blade_Geo_skinCluster" worldMatrix="0.735039 -0.138063 -0.663819 0.000000 -0.076506 0.955908 -0.283526 0.000000 0.673695 0.259189 0.692067 0.000000 1.611800 19.350241 1.309729 1.000000 "/>
+  <shape name="Knife_Blade_GeoShape" group="0" stride="3" size="201" max="200">
+    <point index="0" value=" 2.719211 0.104376 0.027715"/>
+    <point index="1" value=" 2.841597 0.036195 0.029318"/>
+    <point index="2" value=" 2.986263 0.062966 0.000005"/>
+    <point index="3" value=" 2.875036 0.117282 0.000004"/>
+    <point index="4" value=" 2.746852 0.164723 0.000005"/>
+    <point index="5" value=" 2.742202 0.161953 0.004282"/>
+    <point index="6" value=" 2.864681 0.117284 0.004283"/>
+    <point index="7" value=" 2.975908 0.062966 0.004283"/>
+    <point index="8" value=" 2.720549 0.107633 0.026420"/>
+    <point index="9" value=" 2.800891 0.072157 0.027414"/>
+    <point index="10" value=" 2.846588 0.037162 0.028401"/>
+    <point index="11" value=" 0.078635 0.087267 0.051180"/>
+    <point index="12" value=" 0.078635 0.162539 0.037423"/>
+    <point index="13" value=" 0.078635 0.168223 0.035637"/>
+    <point index="14" value=" 0.078635 0.262151 0.005629"/>
+    <point index="15" value=" 0.078635 0.267377 0.000005"/>
+    <point index="16" value=" 2.579139 0.000000 0.044516"/>
+    <point index="17" value=" 2.579139 0.063848 0.038934"/>
+    <point index="18" value=" 2.579138 0.118917 0.028469"/>
+    <point index="19" value=" 2.579138 0.123076 0.027111"/>
+    <point index="20" value=" 2.579138 0.191785 0.004283"/>
+    <point index="21" value=" 2.579138 0.195601 0.000004"/>
+    <point index="22" value=" 1.390139 0.000000 0.058516"/>
+    <point index="23" value=" 1.390138 0.075550 0.051180"/>
+    <point index="24" value=" 1.390138 0.140735 0.037423"/>
+    <point index="25" value=" 1.390138 0.145654 0.035637"/>
+    <point index="26" value=" 1.390138 0.226965 0.005629"/>
+    <point index="27" value=" 1.390138 0.231494 0.000005"/>
+    <point index="28" value=" 1.966318 0.000002 0.052665"/>
+    <point index="29" value=" 1.966318 0.069696 0.046062"/>
+    <point index="30" value=" 1.966318 0.129827 0.033681"/>
+    <point index="31" value=" 1.966318 0.134365 0.032074"/>
+    <point index="32" value=" 1.966318 0.209369 0.005067"/>
+    <point index="33" value=" 1.966318 0.213544 0.000005"/>
+    <point index="34" value=" 0.813958 0.000002 0.058517"/>
+    <point index="35" value=" 0.813958 0.081407 0.051180"/>
+    <point index="36" value=" 0.813958 0.151629 0.037423"/>
+    <point index="37" value=" 0.813958 0.156932 0.035637"/>
+    <point index="38" value=" 0.813958 0.244560 0.005629"/>
+    <point index="39" value=" 0.813958 0.249428 0.000005"/>
+    <point index="40" value=" 0.078636 0.000002 0.058027"/>
+    <point index="41" value=" 2.712417 0.063257 0.037090"/>
+    <point index="42" value=" 2.797116 0.069568 0.028758"/>
+    <point index="43" value=" 0.227201 0.000000 0.058126"/>
+    <point index="44" value=" 0.227201 0.086081 0.051180"/>
+    <point index="45" value=" 0.227201 0.160333 0.037422"/>
+    <point index="46" value=" 0.227201 0.165939 0.035637"/>
+    <point index="47" value=" 0.227201 0.258594 0.005629"/>
+    <point index="48" value=" 0.227201 0.263748 0.000004"/>
+    <point index="49" value=" 2.719211 -0.104378 0.027715"/>
+    <point index="50" value=" 2.841598 -0.036195 0.029319"/>
+    <point index="51" value=" 2.986262 -0.062966 0.000005"/>
+    <point index="52" value=" 2.875036 -0.117284 0.000005"/>
+    <point index="53" value=" 2.746852 -0.164721 0.000005"/>
+    <point index="54" value=" 2.742202 -0.161953 0.004283"/>
+    <point index="55" value=" 2.864681 -0.117282 0.004283"/>
+    <point index="56" value=" 2.975908 -0.062968 0.004283"/>
+    <point index="57" value=" 2.720548 -0.107633 0.026421"/>
+    <point index="58" value=" 2.800891 -0.072160 0.027413"/>
+    <point index="59" value=" 2.846588 -0.037162 0.028401"/>
+    <point index="60" value=" 0.078635 -0.087265 0.051180"/>
+    <point index="61" value=" 0.078635 -0.162539 0.037423"/>
+    <point index="62" value=" 0.078635 -0.168221 0.035637"/>
+    <point index="63" value=" 0.078635 -0.262149 0.005629"/>
+    <point index="64" value=" 0.078635 -0.267375 0.000005"/>
+    <point index="65" value=" 2.579139 -0.063848 0.038934"/>
+    <point index="66" value=" 2.579139 -0.118917 0.028469"/>
+    <point index="67" value=" 2.579139 -0.123074 0.027111"/>
+    <point index="68" value=" 2.579139 -0.191787 0.004283"/>
+    <point index="69" value=" 2.579138 -0.195603 0.000005"/>
+    <point index="70" value=" 1.390138 -0.075552 0.051180"/>
+    <point index="71" value=" 1.390138 -0.140733 0.037422"/>
+    <point index="72" value=" 1.390138 -0.145654 0.035637"/>
+    <point index="73" value=" 1.390138 -0.226965 0.005629"/>
+    <point index="74" value=" 1.390138 -0.231494 0.000005"/>
+    <point index="75" value=" 1.966318 -0.069696 0.046062"/>
+    <point index="76" value=" 1.966318 -0.129825 0.033682"/>
+    <point index="77" value=" 1.966318 -0.134363 0.032074"/>
+    <point index="78" value=" 1.966318 -0.209371 0.005066"/>
+    <point index="79" value=" 1.966318 -0.213544 0.000005"/>
+    <point index="80" value=" 0.813958 -0.081407 0.051180"/>
+    <point index="81" value=" 0.813958 -0.151632 0.037424"/>
+    <point index="82" value=" 0.813958 -0.156934 0.035638"/>
+    <point index="83" value=" 0.813958 -0.244558 0.005629"/>
+    <point index="84" value=" 0.813958 -0.249428 0.000005"/>
+    <point index="85" value=" 2.712417 -0.063257 0.037090"/>
+    <point index="86" value=" 2.797116 -0.069566 0.028758"/>
+    <point index="87" value=" 0.227201 -0.086081 0.051180"/>
+    <point index="88" value=" 0.227201 -0.160333 0.037423"/>
+    <point index="89" value=" 0.227201 -0.165941 0.035637"/>
+    <point index="90" value=" 0.227201 -0.258594 0.005629"/>
+    <point index="91" value=" 0.227201 -0.263750 0.000005"/>
+    <point index="92" value=" 3.048561 0.006297 0.000005"/>
+    <point index="93" value=" 3.051203 -0.000002 0.000004"/>
+    <point index="94" value=" 3.048561 -0.006295 0.000005"/>
+    <point index="95" value=" 3.038207 0.006297 0.004283"/>
+    <point index="96" value=" 3.040848 0.000002 0.004283"/>
+    <point index="97" value=" 3.038207 -0.006297 0.004283"/>
+    <point index="98" value=" 2.869683 0.006297 0.028876"/>
+    <point index="99" value=" 2.871919 0.000000 0.028991"/>
+    <point index="100" value=" 2.869683 -0.006295 0.028876"/>
+    <point index="101" value=" 2.865247 0.006295 0.029516"/>
+    <point index="102" value=" 2.867472 -0.000002 0.029634"/>
+    <point index="103" value=" 2.865246 -0.006295 0.029516"/>
+    <point index="104" value=" 2.839123 0.000000 0.033134"/>
+    <point index="105" value=" 2.709198 0.000000 0.040488"/>
+    <point index="106" value=" 2.775880 -0.047637 0.034967"/>
+    <point index="107" value=" 2.768139 0.000002 0.037853"/>
+    <point index="108" value=" 2.775880 0.047635 0.034968"/>
+    <point index="109" value=" 2.819458 -0.025873 0.032815"/>
+    <point index="110" value=" 2.819458 0.025869 0.032815"/>
+    <point index="111" value=" 2.719211 0.104378 -0.027706"/>
+    <point index="112" value=" 2.841598 0.036195 -0.029309"/>
+    <point index="113" value=" 2.742201 0.161953 -0.004274"/>
+    <point index="114" value=" 2.864682 0.117282 -0.004274"/>
+    <point index="115" value=" 2.975908 0.062966 -0.004274"/>
+    <point index="116" value=" 2.720549 0.107633 -0.026412"/>
+    <point index="117" value=" 2.800891 0.072160 -0.027404"/>
+    <point index="118" value=" 2.846588 0.037165 -0.028392"/>
+    <point index="119" value=" 0.078635 0.087263 -0.051171"/>
+    <point index="120" value=" 0.078635 0.162539 -0.037414"/>
+    <point index="121" value=" 0.078635 0.168226 -0.035627"/>
+    <point index="122" value=" 0.078635 0.262149 -0.005619"/>
+    <point index="123" value=" 2.579139 0.000002 -0.044506"/>
+    <point index="124" value=" 2.579139 0.063848 -0.038925"/>
+    <point index="125" value=" 2.579138 0.118917 -0.028461"/>
+    <point index="126" value=" 2.579139 0.123076 -0.027102"/>
+    <point index="127" value=" 2.579138 0.191785 -0.004274"/>
+    <point index="128" value=" 1.390138 0.000002 -0.058507"/>
+    <point index="129" value=" 1.390138 0.075552 -0.051171"/>
+    <point index="130" value=" 1.390138 0.140733 -0.037414"/>
+    <point index="131" value=" 1.390138 0.145652 -0.035628"/>
+    <point index="132" value=" 1.390138 0.226967 -0.005620"/>
+    <point index="133" value=" 1.966318 0.000000 -0.052656"/>
+    <point index="134" value=" 1.966318 0.069694 -0.046053"/>
+    <point index="135" value=" 1.966318 0.129825 -0.033672"/>
+    <point index="136" value=" 1.966318 0.134363 -0.032065"/>
+    <point index="137" value=" 1.966318 0.209374 -0.005057"/>
+    <point index="138" value=" 0.813958 0.000000 -0.058507"/>
+    <point index="139" value=" 0.813958 0.081407 -0.051171"/>
+    <point index="140" value=" 0.813958 0.151629 -0.037413"/>
+    <point index="141" value=" 0.813958 0.156932 -0.035628"/>
+    <point index="142" value=" 0.813958 0.244558 -0.005619"/>
+    <point index="143" value=" 0.078636 0.000002 -0.058018"/>
+    <point index="144" value=" 2.712417 0.063257 -0.037081"/>
+    <point index="145" value=" 2.797117 0.069566 -0.028749"/>
+    <point index="146" value=" 0.227201 0.000000 -0.058117"/>
+    <point index="147" value=" 0.227201 0.086081 -0.051171"/>
+    <point index="148" value=" 0.227201 0.160336 -0.037414"/>
+    <point index="149" value=" 0.227201 0.165941 -0.035628"/>
+    <point index="150" value=" 0.227201 0.258594 -0.005620"/>
+    <point index="151" value=" 2.719211 -0.104378 -0.027705"/>
+    <point index="152" value=" 2.841598 -0.036195 -0.029309"/>
+    <point index="153" value=" 2.742201 -0.161953 -0.004274"/>
+    <point index="154" value=" 2.864682 -0.117284 -0.004274"/>
+    <point index="155" value=" 2.975908 -0.062968 -0.004274"/>
+    <point index="156" value=" 2.720548 -0.107630 -0.026411"/>
+    <point index="157" value=" 2.800892 -0.072160 -0.027405"/>
+    <point index="158" value=" 2.846588 -0.037165 -0.028392"/>
+    <point index="159" value=" 0.078635 -0.087263 -0.051170"/>
+    <point index="160" value=" 0.078635 -0.162537 -0.037414"/>
+    <point index="161" value=" 0.078635 -0.168219 -0.035628"/>
+    <point index="162" value=" 0.078635 -0.262147 -0.005619"/>
+    <point index="163" value=" 2.579139 -0.063846 -0.038926"/>
+    <point index="164" value=" 2.579138 -0.118913 -0.028459"/>
+    <point index="165" value=" 2.579138 -0.123074 -0.027101"/>
+    <point index="166" value=" 2.579139 -0.191785 -0.004273"/>
+    <point index="167" value=" 1.390138 -0.075552 -0.051171"/>
+    <point index="168" value=" 1.390138 -0.140730 -0.037413"/>
+    <point index="169" value=" 1.390138 -0.145652 -0.035628"/>
+    <point index="170" value=" 1.390138 -0.226965 -0.005620"/>
+    <point index="171" value=" 1.966318 -0.069696 -0.046053"/>
+    <point index="172" value=" 1.966318 -0.129827 -0.033672"/>
+    <point index="173" value=" 1.966318 -0.134363 -0.032065"/>
+    <point index="174" value=" 1.966318 -0.209371 -0.005058"/>
+    <point index="175" value=" 0.813958 -0.081407 -0.051171"/>
+    <point index="176" value=" 0.813958 -0.151632 -0.037413"/>
+    <point index="177" value=" 0.813958 -0.156932 -0.035627"/>
+    <point index="178" value=" 0.813958 -0.244558 -0.005619"/>
+    <point index="179" value=" 2.712417 -0.063257 -0.037082"/>
+    <point index="180" value=" 2.797117 -0.069566 -0.028749"/>
+    <point index="181" value=" 0.227201 -0.086081 -0.051169"/>
+    <point index="182" value=" 0.227201 -0.160333 -0.037413"/>
+    <point index="183" value=" 0.227201 -0.165941 -0.035628"/>
+    <point index="184" value=" 0.227201 -0.258596 -0.005620"/>
+    <point index="185" value=" 3.038207 0.006297 -0.004274"/>
+    <point index="186" value=" 3.040848 0.000000 -0.004274"/>
+    <point index="187" value=" 3.038207 -0.006295 -0.004274"/>
+    <point index="188" value=" 2.869683 0.006295 -0.028867"/>
+    <point index="189" value=" 2.871919 0.000000 -0.028983"/>
+    <point index="190" value=" 2.869683 -0.006297 -0.028867"/>
+    <point index="191" value=" 2.865247 0.006295 -0.029507"/>
+    <point index="192" value=" 2.867472 0.000000 -0.029625"/>
+    <point index="193" value=" 2.865247 -0.006295 -0.029507"/>
+    <point index="194" value=" 2.839123 0.000000 -0.033126"/>
+    <point index="195" value=" 2.709198 0.000000 -0.040478"/>
+    <point index="196" value=" 2.775880 -0.047635 -0.034958"/>
+    <point index="197" value=" 2.768138 0.000002 -0.037844"/>
+    <point index="198" value=" 2.775880 0.047633 -0.034959"/>
+    <point index="199" value=" 2.819458 -0.025871 -0.032805"/>
+    <point index="200" value=" 2.819458 0.025869 -0.032806"/>
+  </shape>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="C_head_FK_CTL" shape="Knife_Blade_GeoShape" layer="0" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="C_neck_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="1" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="C_neck_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="2" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_clavicle" shape="Knife_Blade_GeoShape" layer="3" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_clavicle" shape="Knife_Blade_GeoShape" layer="4" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="C_Spine00" shape="Knife_Blade_GeoShape" layer="5" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="C_Spine01" shape="Knife_Blade_GeoShape" layer="6" defaultValue="0.000" size="201" max="200">
+    <point index="0" value="0.232"/>
+    <point index="1" value="0.219"/>
+    <point index="2" value="0.222"/>
+    <point index="3" value="0.231"/>
+    <point index="4" value="0.240"/>
+    <point index="5" value="0.240"/>
+    <point index="6" value="0.231"/>
+    <point index="7" value="0.222"/>
+    <point index="8" value="0.232"/>
+    <point index="9" value="0.225"/>
+    <point index="10" value="0.219"/>
+    <point index="11" value="0.570"/>
+    <point index="12" value="0.554"/>
+    <point index="13" value="0.553"/>
+    <point index="14" value="0.533"/>
+    <point index="15" value="0.532"/>
+    <point index="16" value="0.217"/>
+    <point index="17" value="0.228"/>
+    <point index="18" value="0.237"/>
+    <point index="19" value="0.238"/>
+    <point index="20" value="0.250"/>
+    <point index="21" value="0.250"/>
+    <point index="22" value="0.310"/>
+    <point index="23" value="0.331"/>
+    <point index="24" value="0.350"/>
+    <point index="25" value="0.352"/>
+    <point index="26" value="0.375"/>
+    <point index="27" value="0.377"/>
+    <point index="28" value="0.244"/>
+    <point index="29" value="0.260"/>
+    <point index="30" value="0.273"/>
+    <point index="31" value="0.274"/>
+    <point index="32" value="0.291"/>
+    <point index="33" value="0.292"/>
+    <point index="34" value="0.427"/>
+    <point index="35" value="0.453"/>
+    <point index="36" value="0.475"/>
+    <point index="37" value="0.477"/>
+    <point index="38" value="0.506"/>
+    <point index="39" value="0.508"/>
+    <point index="40" value="0.588"/>
+    <point index="41" value="0.225"/>
+    <point index="42" value="0.225"/>
+    <point index="43" value="0.570"/>
+    <point index="44" value="0.574"/>
+    <point index="45" value="0.559"/>
+    <point index="46" value="0.558"/>
+    <point index="47" value="0.539"/>
+    <point index="48" value="0.538"/>
+    <point index="49" value="0.198"/>
+    <point index="50" value="0.208"/>
+    <point index="51" value="0.204"/>
+    <point index="52" value="0.195"/>
+    <point index="53" value="0.188"/>
+    <point index="54" value="0.188"/>
+    <point index="55" value="0.195"/>
+    <point index="56" value="0.204"/>
+    <point index="57" value="0.198"/>
+    <point index="58" value="0.203"/>
+    <point index="59" value="0.208"/>
+    <point index="60" value="0.581"/>
+    <point index="61" value="0.562"/>
+    <point index="62" value="0.561"/>
+    <point index="63" value="0.538"/>
+    <point index="64" value="0.537"/>
+    <point index="65" value="0.206"/>
+    <point index="66" value="0.197"/>
+    <point index="67" value="0.196"/>
+    <point index="68" value="0.184"/>
+    <point index="69" value="0.183"/>
+    <point index="70" value="0.289"/>
+    <point index="71" value="0.270"/>
+    <point index="72" value="0.269"/>
+    <point index="73" value="0.246"/>
+    <point index="74" value="0.244"/>
+    <point index="75" value="0.228"/>
+    <point index="76" value="0.215"/>
+    <point index="77" value="0.214"/>
+    <point index="78" value="0.196"/>
+    <point index="79" value="0.195"/>
+    <point index="80" value="0.402"/>
+    <point index="81" value="0.380"/>
+    <point index="82" value="0.378"/>
+    <point index="83" value="0.351"/>
+    <point index="84" value="0.349"/>
+    <point index="85" value="0.205"/>
+    <point index="86" value="0.203"/>
+    <point index="87" value="0.547"/>
+    <point index="88" value="0.527"/>
+    <point index="89" value="0.526"/>
+    <point index="90" value="0.501"/>
+    <point index="91" value="0.500"/>
+    <point index="92" value="0.214"/>
+    <point index="93" value="0.213"/>
+    <point index="94" value="0.212"/>
+    <point index="95" value="0.214"/>
+    <point index="96" value="0.213"/>
+    <point index="97" value="0.212"/>
+    <point index="98" value="0.215"/>
+    <point index="99" value="0.214"/>
+    <point index="100" value="0.213"/>
+    <point index="101" value="0.215"/>
+    <point index="102" value="0.214"/>
+    <point index="103" value="0.213"/>
+    <point index="104" value="0.214"/>
+    <point index="105" value="0.215"/>
+    <point index="106" value="0.207"/>
+    <point index="107" value="0.215"/>
+    <point index="108" value="0.222"/>
+    <point index="109" value="0.210"/>
+    <point index="110" value="0.218"/>
+    <point index="111" value="0.230"/>
+    <point index="112" value="0.217"/>
+    <point index="113" value="0.240"/>
+    <point index="114" value="0.231"/>
+    <point index="115" value="0.222"/>
+    <point index="116" value="0.230"/>
+    <point index="117" value="0.223"/>
+    <point index="118" value="0.217"/>
+    <point index="119" value="0.582"/>
+    <point index="120" value="0.563"/>
+    <point index="121" value="0.561"/>
+    <point index="122" value="0.534"/>
+    <point index="123" value="0.213"/>
+    <point index="124" value="0.225"/>
+    <point index="125" value="0.235"/>
+    <point index="126" value="0.236"/>
+    <point index="127" value="0.249"/>
+    <point index="128" value="0.309"/>
+    <point index="129" value="0.331"/>
+    <point index="130" value="0.351"/>
+    <point index="131" value="0.352"/>
+    <point index="132" value="0.376"/>
+    <point index="133" value="0.239"/>
+    <point index="134" value="0.256"/>
+    <point index="135" value="0.271"/>
+    <point index="136" value="0.272"/>
+    <point index="137" value="0.291"/>
+    <point index="138" value="0.435"/>
+    <point index="139" value="0.462"/>
+    <point index="140" value="0.483"/>
+    <point index="141" value="0.484"/>
+    <point index="142" value="0.507"/>
+    <point index="143" value="0.603"/>
+    <point index="144" value="0.223"/>
+    <point index="145" value="0.223"/>
+    <point index="146" value="0.590"/>
+    <point index="147" value="0.587"/>
+    <point index="148" value="0.568"/>
+    <point index="149" value="0.566"/>
+    <point index="150" value="0.540"/>
+    <point index="151" value="0.196"/>
+    <point index="152" value="0.206"/>
+    <point index="153" value="0.188"/>
+    <point index="154" value="0.195"/>
+    <point index="155" value="0.203"/>
+    <point index="156" value="0.195"/>
+    <point index="157" value="0.201"/>
+    <point index="158" value="0.206"/>
+    <point index="159" value="0.599"/>
+    <point index="160" value="0.575"/>
+    <point index="161" value="0.573"/>
+    <point index="162" value="0.539"/>
+    <point index="163" value="0.203"/>
+    <point index="164" value="0.194"/>
+    <point index="165" value="0.193"/>
+    <point index="166" value="0.183"/>
+    <point index="167" value="0.286"/>
+    <point index="168" value="0.268"/>
+    <point index="169" value="0.266"/>
+    <point index="170" value="0.245"/>
+    <point index="171" value="0.224"/>
+    <point index="172" value="0.211"/>
+    <point index="173" value="0.210"/>
+    <point index="174" value="0.196"/>
+    <point index="175" value="0.407"/>
+    <point index="176" value="0.383"/>
+    <point index="177" value="0.381"/>
+    <point index="178" value="0.351"/>
+    <point index="179" value="0.202"/>
+    <point index="180" value="0.201"/>
+    <point index="181" value="0.563"/>
+    <point index="182" value="0.538"/>
+    <point index="183" value="0.536"/>
+    <point index="184" value="0.502"/>
+    <point index="185" value="0.214"/>
+    <point index="186" value="0.213"/>
+    <point index="187" value="0.212"/>
+    <point index="188" value="0.212"/>
+    <point index="189" value="0.211"/>
+    <point index="190" value="0.211"/>
+    <point index="191" value="0.212"/>
+    <point index="192" value="0.211"/>
+    <point index="193" value="0.211"/>
+    <point index="194" value="0.211"/>
+    <point index="195" value="0.212"/>
+    <point index="196" value="0.204"/>
+    <point index="197" value="0.212"/>
+    <point index="198" value="0.219"/>
+    <point index="199" value="0.207"/>
+    <point index="200" value="0.216"/>
+  </weights>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="C_Spine02" shape="Knife_Blade_GeoShape" layer="7" defaultValue="0.000" size="20" max="150">
+    <point index="11" value="0.430"/>
+    <point index="12" value="0.446"/>
+    <point index="13" value="0.447"/>
+    <point index="14" value="0.467"/>
+    <point index="15" value="0.468"/>
+    <point index="40" value="0.412"/>
+    <point index="44" value="0.426"/>
+    <point index="45" value="0.441"/>
+    <point index="46" value="0.442"/>
+    <point index="47" value="0.461"/>
+    <point index="48" value="0.462"/>
+    <point index="119" value="0.418"/>
+    <point index="120" value="0.437"/>
+    <point index="121" value="0.439"/>
+    <point index="122" value="0.466"/>
+    <point index="143" value="0.397"/>
+    <point index="147" value="0.413"/>
+    <point index="148" value="0.432"/>
+    <point index="149" value="0.434"/>
+    <point index="150" value="0.460"/>
+  </weights>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="C_Spine03" shape="Knife_Blade_GeoShape" layer="8" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="C_Spine04" shape="Knife_Blade_GeoShape" layer="9" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperLeg_Twist_00" shape="Knife_Blade_GeoShape" layer="10" defaultValue="0.000" size="181" max="200">
+    <point index="0" value="0.768"/>
+    <point index="1" value="0.781"/>
+    <point index="2" value="0.778"/>
+    <point index="3" value="0.769"/>
+    <point index="4" value="0.760"/>
+    <point index="5" value="0.760"/>
+    <point index="6" value="0.769"/>
+    <point index="7" value="0.778"/>
+    <point index="8" value="0.768"/>
+    <point index="9" value="0.775"/>
+    <point index="10" value="0.781"/>
+    <point index="16" value="0.783"/>
+    <point index="17" value="0.772"/>
+    <point index="18" value="0.763"/>
+    <point index="19" value="0.762"/>
+    <point index="20" value="0.750"/>
+    <point index="21" value="0.750"/>
+    <point index="22" value="0.690"/>
+    <point index="23" value="0.669"/>
+    <point index="24" value="0.650"/>
+    <point index="25" value="0.648"/>
+    <point index="26" value="0.625"/>
+    <point index="27" value="0.623"/>
+    <point index="28" value="0.756"/>
+    <point index="29" value="0.740"/>
+    <point index="30" value="0.727"/>
+    <point index="31" value="0.726"/>
+    <point index="32" value="0.709"/>
+    <point index="33" value="0.708"/>
+    <point index="34" value="0.573"/>
+    <point index="35" value="0.547"/>
+    <point index="36" value="0.525"/>
+    <point index="37" value="0.523"/>
+    <point index="38" value="0.494"/>
+    <point index="39" value="0.492"/>
+    <point index="41" value="0.775"/>
+    <point index="42" value="0.775"/>
+    <point index="43" value="0.430"/>
+    <point index="49" value="0.802"/>
+    <point index="50" value="0.792"/>
+    <point index="51" value="0.796"/>
+    <point index="52" value="0.805"/>
+    <point index="53" value="0.812"/>
+    <point index="54" value="0.812"/>
+    <point index="55" value="0.805"/>
+    <point index="56" value="0.796"/>
+    <point index="57" value="0.802"/>
+    <point index="58" value="0.797"/>
+    <point index="59" value="0.792"/>
+    <point index="60" value="0.419"/>
+    <point index="61" value="0.438"/>
+    <point index="62" value="0.439"/>
+    <point index="63" value="0.462"/>
+    <point index="64" value="0.463"/>
+    <point index="65" value="0.794"/>
+    <point index="66" value="0.803"/>
+    <point index="67" value="0.804"/>
+    <point index="68" value="0.816"/>
+    <point index="69" value="0.817"/>
+    <point index="70" value="0.711"/>
+    <point index="71" value="0.730"/>
+    <point index="72" value="0.731"/>
+    <point index="73" value="0.754"/>
+    <point index="74" value="0.756"/>
+    <point index="75" value="0.772"/>
+    <point index="76" value="0.785"/>
+    <point index="77" value="0.786"/>
+    <point index="78" value="0.804"/>
+    <point index="79" value="0.805"/>
+    <point index="80" value="0.598"/>
+    <point index="81" value="0.620"/>
+    <point index="82" value="0.622"/>
+    <point index="83" value="0.649"/>
+    <point index="84" value="0.651"/>
+    <point index="85" value="0.795"/>
+    <point index="86" value="0.797"/>
+    <point index="87" value="0.453"/>
+    <point index="88" value="0.473"/>
+    <point index="89" value="0.474"/>
+    <point index="90" value="0.499"/>
+    <point index="91" value="0.500"/>
+    <point index="92" value="0.786"/>
+    <point index="93" value="0.787"/>
+    <point index="94" value="0.788"/>
+    <point index="95" value="0.786"/>
+    <point index="96" value="0.787"/>
+    <point index="97" value="0.788"/>
+    <point index="98" value="0.785"/>
+    <point index="99" value="0.786"/>
+    <point index="100" value="0.787"/>
+    <point index="101" value="0.785"/>
+    <point index="102" value="0.786"/>
+    <point index="103" value="0.787"/>
+    <point index="104" value="0.786"/>
+    <point index="105" value="0.785"/>
+    <point index="106" value="0.793"/>
+    <point index="107" value="0.785"/>
+    <point index="108" value="0.778"/>
+    <point index="109" value="0.790"/>
+    <point index="110" value="0.782"/>
+    <point index="111" value="0.770"/>
+    <point index="112" value="0.783"/>
+    <point index="113" value="0.760"/>
+    <point index="114" value="0.769"/>
+    <point index="115" value="0.778"/>
+    <point index="116" value="0.770"/>
+    <point index="117" value="0.777"/>
+    <point index="118" value="0.783"/>
+    <point index="123" value="0.787"/>
+    <point index="124" value="0.775"/>
+    <point index="125" value="0.765"/>
+    <point index="126" value="0.764"/>
+    <point index="127" value="0.751"/>
+    <point index="128" value="0.691"/>
+    <point index="129" value="0.669"/>
+    <point index="130" value="0.649"/>
+    <point index="131" value="0.648"/>
+    <point index="132" value="0.624"/>
+    <point index="133" value="0.761"/>
+    <point index="134" value="0.744"/>
+    <point index="135" value="0.729"/>
+    <point index="136" value="0.728"/>
+    <point index="137" value="0.709"/>
+    <point index="138" value="0.565"/>
+    <point index="139" value="0.538"/>
+    <point index="140" value="0.517"/>
+    <point index="141" value="0.516"/>
+    <point index="142" value="0.493"/>
+    <point index="144" value="0.777"/>
+    <point index="145" value="0.777"/>
+    <point index="146" value="0.410"/>
+    <point index="151" value="0.804"/>
+    <point index="152" value="0.794"/>
+    <point index="153" value="0.812"/>
+    <point index="154" value="0.805"/>
+    <point index="155" value="0.797"/>
+    <point index="156" value="0.805"/>
+    <point index="157" value="0.799"/>
+    <point index="158" value="0.794"/>
+    <point index="159" value="0.401"/>
+    <point index="160" value="0.425"/>
+    <point index="161" value="0.427"/>
+    <point index="162" value="0.461"/>
+    <point index="163" value="0.797"/>
+    <point index="164" value="0.806"/>
+    <point index="165" value="0.807"/>
+    <point index="166" value="0.817"/>
+    <point index="167" value="0.714"/>
+    <point index="168" value="0.732"/>
+    <point index="169" value="0.734"/>
+    <point index="170" value="0.755"/>
+    <point index="171" value="0.776"/>
+    <point index="172" value="0.789"/>
+    <point index="173" value="0.790"/>
+    <point index="174" value="0.804"/>
+    <point index="175" value="0.593"/>
+    <point index="176" value="0.617"/>
+    <point index="177" value="0.619"/>
+    <point index="178" value="0.649"/>
+    <point index="179" value="0.798"/>
+    <point index="180" value="0.799"/>
+    <point index="181" value="0.437"/>
+    <point index="182" value="0.462"/>
+    <point index="183" value="0.464"/>
+    <point index="184" value="0.498"/>
+    <point index="185" value="0.786"/>
+    <point index="186" value="0.787"/>
+    <point index="187" value="0.788"/>
+    <point index="188" value="0.788"/>
+    <point index="189" value="0.789"/>
+    <point index="190" value="0.789"/>
+    <point index="191" value="0.788"/>
+    <point index="192" value="0.789"/>
+    <point index="193" value="0.789"/>
+    <point index="194" value="0.789"/>
+    <point index="195" value="0.788"/>
+    <point index="196" value="0.796"/>
+    <point index="197" value="0.788"/>
+    <point index="198" value="0.781"/>
+    <point index="199" value="0.793"/>
+    <point index="200" value="0.784"/>
+  </weights>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperLeg_Twist_01" shape="Knife_Blade_GeoShape" layer="11" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperLeg_Twist_02" shape="Knife_Blade_GeoShape" layer="12" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperLeg_Twist_03" shape="Knife_Blade_GeoShape" layer="13" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperLeg_Twist_04" shape="Knife_Blade_GeoShape" layer="14" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperLeg_Twist_05" shape="Knife_Blade_GeoShape" layer="15" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperArm_Twist_00" shape="Knife_Blade_GeoShape" layer="16" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperArm_Twist_01" shape="Knife_Blade_GeoShape" layer="17" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperArm_Twist_02" shape="Knife_Blade_GeoShape" layer="18" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperArm_Twist_03" shape="Knife_Blade_GeoShape" layer="19" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperArm_Twist_04" shape="Knife_Blade_GeoShape" layer="20" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_UpperArm_Twist_05" shape="Knife_Blade_GeoShape" layer="21" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerLeg_Twist_00" shape="Knife_Blade_GeoShape" layer="22" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerLeg_Twist_01" shape="Knife_Blade_GeoShape" layer="23" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerLeg_Twist_02" shape="Knife_Blade_GeoShape" layer="24" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerLeg_Twist_03" shape="Knife_Blade_GeoShape" layer="25" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerLeg_Twist_04" shape="Knife_Blade_GeoShape" layer="26" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerLeg_Twist_05" shape="Knife_Blade_GeoShape" layer="27" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerArm_Twist_00" shape="Knife_Blade_GeoShape" layer="28" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerArm_Twist_01" shape="Knife_Blade_GeoShape" layer="29" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerArm_Twist_02" shape="Knife_Blade_GeoShape" layer="30" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerArm_Twist_03" shape="Knife_Blade_GeoShape" layer="31" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerArm_Twist_04" shape="Knife_Blade_GeoShape" layer="32" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_LowerArm_Twist_05" shape="Knife_Blade_GeoShape" layer="33" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperLeg_Twist_00" shape="Knife_Blade_GeoShape" layer="34" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperLeg_Twist_01" shape="Knife_Blade_GeoShape" layer="35" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperLeg_Twist_02" shape="Knife_Blade_GeoShape" layer="36" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperLeg_Twist_03" shape="Knife_Blade_GeoShape" layer="37" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperLeg_Twist_04" shape="Knife_Blade_GeoShape" layer="38" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperLeg_Twist_05" shape="Knife_Blade_GeoShape" layer="39" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperArm_Twist_00" shape="Knife_Blade_GeoShape" layer="40" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperArm_Twist_01" shape="Knife_Blade_GeoShape" layer="41" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperArm_Twist_02" shape="Knife_Blade_GeoShape" layer="42" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperArm_Twist_03" shape="Knife_Blade_GeoShape" layer="43" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperArm_Twist_04" shape="Knife_Blade_GeoShape" layer="44" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_UpperArm_Twist_05" shape="Knife_Blade_GeoShape" layer="45" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerLeg_Twist_00" shape="Knife_Blade_GeoShape" layer="46" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerLeg_Twist_01" shape="Knife_Blade_GeoShape" layer="47" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerLeg_Twist_02" shape="Knife_Blade_GeoShape" layer="48" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerLeg_Twist_03" shape="Knife_Blade_GeoShape" layer="49" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerLeg_Twist_04" shape="Knife_Blade_GeoShape" layer="50" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerLeg_Twist_05" shape="Knife_Blade_GeoShape" layer="51" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerArm_Twist_00" shape="Knife_Blade_GeoShape" layer="52" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerArm_Twist_01" shape="Knife_Blade_GeoShape" layer="53" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerArm_Twist_02" shape="Knife_Blade_GeoShape" layer="54" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerArm_Twist_03" shape="Knife_Blade_GeoShape" layer="55" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerArm_Twist_04" shape="Knife_Blade_GeoShape" layer="56" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_LowerArm_Twist_05" shape="Knife_Blade_GeoShape" layer="57" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_ankle" shape="Knife_Blade_GeoShape" layer="58" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_ball" shape="Knife_Blade_GeoShape" layer="59" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_wrist" shape="Knife_Blade_GeoShape" layer="60" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_pinky_00_FK_CTL" shape="Knife_Blade_GeoShape" layer="61" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_pinky_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="62" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_pinky_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="63" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_pinky_03_FK_CTL" shape="Knife_Blade_GeoShape" layer="64" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_ring_00_FK_CTL" shape="Knife_Blade_GeoShape" layer="65" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_ring_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="66" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_ring_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="67" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_ring_03_FK_CTL" shape="Knife_Blade_GeoShape" layer="68" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_middle_00_FK_CTL" shape="Knife_Blade_GeoShape" layer="69" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_middle_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="70" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_middle_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="71" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_middle_03_FK_CTL" shape="Knife_Blade_GeoShape" layer="72" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_index_00_FK_CTL" shape="Knife_Blade_GeoShape" layer="73" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_index_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="74" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_index_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="75" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_index_03_FK_CTL" shape="Knife_Blade_GeoShape" layer="76" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_thumb_00_FK_CTL" shape="Knife_Blade_GeoShape" layer="77" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_thumb_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="78" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_thumb_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="79" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="L_thumb_03_FK_CTL" shape="Knife_Blade_GeoShape" layer="80" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_ankle" shape="Knife_Blade_GeoShape" layer="81" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_ball" shape="Knife_Blade_GeoShape" layer="82" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_wrist" shape="Knife_Blade_GeoShape" layer="83" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_pinky_00_FK_CTL" shape="Knife_Blade_GeoShape" layer="84" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_pinky_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="85" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_pinky_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="86" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_pinky_03_FK_CTL" shape="Knife_Blade_GeoShape" layer="87" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_ring_00_FK_CTL" shape="Knife_Blade_GeoShape" layer="88" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_ring_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="89" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_ring_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="90" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_ring_03_FK_CTL" shape="Knife_Blade_GeoShape" layer="91" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_middle_00_FK_CTL" shape="Knife_Blade_GeoShape" layer="92" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_middle_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="93" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_middle_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="94" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_middle_03_FK_CTL" shape="Knife_Blade_GeoShape" layer="95" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_index_00_FK_CTL" shape="Knife_Blade_GeoShape" layer="96" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_index_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="97" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_index_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="98" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_index_03_FK_CTL" shape="Knife_Blade_GeoShape" layer="99" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_thumb_00_FK_CTL" shape="Knife_Blade_GeoShape" layer="100" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_thumb_01_FK_CTL" shape="Knife_Blade_GeoShape" layer="101" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_thumb_02_FK_CTL" shape="Knife_Blade_GeoShape" layer="102" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Knife_Blade_Geo_skinCluster" source="R_thumb_03_FK_CTL" shape="Knife_Blade_GeoShape" layer="103" defaultValue="0.000" size="0" max="0"/>
+</deformerWeight>

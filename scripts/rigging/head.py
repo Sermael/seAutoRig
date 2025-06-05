@@ -1,7 +1,7 @@
 """ Create head module - Sergio Efigenio - 05/02/2023"""
 from maya import cmds
 from . import offset
-
+from . import utils
 
 class Head(object):
     def __init__(self, jnt_chain, side):
@@ -38,11 +38,12 @@ class Head(object):
                 self.cube_ctl('{0}Shape'.format(jnt), 1.7)
                 cmds.select('C_head_FK_CTLShapeShape.cv[0:18]')
                 cmds.move(0, 1, 0, r=True, os=True, wd=True)
+                
             else:
                 cmds.circle(n='{0}Shape'.format(jnt), nr=(0, 1, 0), r=self.ctlSize * 1.8, ch=False)
 
-            cmds.setAttr('{}'.format(jnt) + '.overrideEnabled', True)
-            cmds.setAttr('{}'.format(jnt) + '.overrideColor', 17)
+            cmds.setAttr('{}'.format(jnt) + 'ShapeShape.overrideEnabled', True)
+            cmds.setAttr('{}'.format(jnt) + 'ShapeShape.overrideColor', 17)
             cmds.parent('{}ShapeShape'.format(jnt), jnt, r=True, s=True)
             cmds.delete(jnt + 'Shape')
 
@@ -51,6 +52,9 @@ class Head(object):
         offset.offset_grp(fk_chain, 'SDK')
 
         cmds.parent('{}_{}_FK_CTL_GRP'.format(self.side, self.jnt_chain[0]), module_grp)
+
+        for ctl in fk_chain:
+            cmds.setAttr(ctl + 'ShapeShape.lineWidth', 2)
 
         mdv1 = cmds.shadingNode('multiplyDivide', n="{}_{}_MDV".format(self.side, self.jnt_chain[0]), au=True)
         mdv2 = cmds.shadingNode('multiplyDivide', n="{}_{}_MDV".format(self.side, self.jnt_chain[1]), au=True)
@@ -97,3 +101,15 @@ class Head(object):
         cmds.rename(shape, name + 'Shape')
 
         return name
+
+    # @staticmethod
+    # def lineWidth(controls, width):
+    #     """
+    #     To modify the line width of any control shape.
+
+    #     :param controls: (list)
+    #     :param width:
+    #     :return:
+    #     """
+    #     for ctl in controls:
+    #         cmds.setAttr(ctl + '.lineWidth', width)

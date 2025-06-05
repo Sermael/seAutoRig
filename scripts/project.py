@@ -1,7 +1,7 @@
-""" Main project file with central parameters - Sergio Efigenio - 05/02/2023"""
+""" Main project file with central parameters - Sergio Efigenio - 02/24/2025"""
 
 scene_scale = 1.0
 
-main_path = "C:/Users/e_che/Documents/maya/2025/scripts/seAutoRig"
+main_path = "C:/Users/effy/projects/seAutoRig"
 
 assets_path = '{}/assets/'.format(main_path)

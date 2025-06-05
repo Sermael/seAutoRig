@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<deformerWeight>
+  <headerInfo fileName="C:/Users/effy/projects/seAutoRig/assets/Nova/skin_weights/Helmet_Feather_02_Geo_skinCluster" worldMatrix="1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 "/>
+  <shape name="Helmet_Feather_02_GeoShape" group="0" stride="3" size="60" max="59">
+    <point index="0" value=" -0.089343 30.885763 -0.403486"/>
+    <point index="1" value=" 0.066802 30.877272 -0.389751"/>
+    <point index="2" value=" 0.903783 40.209145 -5.892950"/>
+    <point index="3" value=" 1.059931 40.200653 -5.879215"/>
+    <point index="4" value=" 0.265011 35.813301 -2.301790"/>
+    <point index="5" value=" 0.587078 35.795784 -2.273461"/>
+    <point index="6" value=" 0.331251 33.383228 -1.159851"/>
+    <point index="7" value=" 0.061979 33.397865 -1.183536"/>
+    <point index="8" value=" 0.827818 38.044918 -3.923168"/>
+    <point index="9" value=" 0.558542 38.059551 -3.946853"/>
+    <point index="10" value=" 0.199566 32.136089 -0.737070"/>
+    <point index="11" value=" 0.196613 33.390545 -1.171694"/>
+    <point index="12" value=" 0.460783 34.607018 -1.659217"/>
+    <point index="13" value=" 0.153799 34.623707 -1.686219"/>
+    <point index="14" value=" 0.402079 36.954552 -3.067878"/>
+    <point index="15" value=" 0.426044 35.804543 -2.287626"/>
+    <point index="16" value=" 0.709062 36.937862 -3.040876"/>
+    <point index="17" value=" 0.693176 38.052235 -3.935011"/>
+    <point index="18" value=" 0.944412 39.128620 -4.882045"/>
+    <point index="19" value=" 0.981857 40.204903 -5.886083"/>
+    <point index="20" value=" 0.727928 39.140392 -4.901088"/>
+    <point index="21" value=" -0.016914 32.147858 -0.756112"/>
+    <point index="22" value=" -0.011272 30.881521 -0.396619"/>
+    <point index="23" value=" 0.555573 36.946205 -3.054377"/>
+    <point index="24" value=" 0.836170 39.134506 -4.891566"/>
+    <point index="25" value=" 0.091324 32.141975 -0.746591"/>
+    <point index="26" value=" 0.307289 34.615360 -1.672718"/>
+    <point index="27" value=" 0.557198 38.086544 -3.914889"/>
+    <point index="28" value=" 0.400469 36.979370 -3.034236"/>
+    <point index="29" value=" 0.553961 36.971043 -3.020708"/>
+    <point index="30" value=" 0.691832 38.079235 -3.903037"/>
+    <point index="31" value=" 0.263023 35.834721 -2.265948"/>
+    <point index="32" value=" 0.424053 35.825996 -2.251725"/>
+    <point index="33" value=" 0.585090 35.817204 -2.237618"/>
+    <point index="34" value=" 0.707452 36.962681 -3.007234"/>
+    <point index="35" value=" 0.826473 38.071911 -3.891205"/>
+    <point index="36" value=" 0.834982 39.162701 -4.860632"/>
+    <point index="37" value=" 0.726740 39.168583 -4.870156"/>
+    <point index="38" value=" 0.943224 39.156811 -4.851113"/>
+    <point index="39" value=" 1.058795 40.229225 -5.848629"/>
+    <point index="40" value=" 0.980721 40.233475 -5.855497"/>
+    <point index="41" value=" 0.902646 40.237717 -5.862365"/>
+    <point index="42" value=" 0.059353 33.412712 -1.144494"/>
+    <point index="43" value=" -0.019693 32.160931 -0.716436"/>
+    <point index="44" value=" 0.088544 32.155052 -0.706911"/>
+    <point index="45" value=" 0.193985 33.405396 -1.132634"/>
+    <point index="46" value=" -0.092171 30.898237 -0.363618"/>
+    <point index="47" value=" -0.014101 30.893995 -0.356750"/>
+    <point index="48" value=" 0.063973 30.889746 -0.349882"/>
+    <point index="49" value=" 0.196787 32.149162 -0.697395"/>
+    <point index="50" value=" 0.328624 33.398075 -1.120809"/>
+    <point index="51" value=" 0.304922 34.633076 -1.634854"/>
+    <point index="52" value=" 0.151435 34.641407 -1.648392"/>
+    <point index="53" value=" 0.458418 34.624718 -1.621390"/>
+    <point index="54" value=" 0.130380 31.519455 -0.515630"/>
+    <point index="55" value=" 0.037222 31.524525 -0.523823"/>
+    <point index="56" value=" -0.055932 31.529583 -0.532019"/>
+    <point index="57" value=" -0.053128 31.516811 -0.571791"/>
+    <point index="58" value=" 0.040026 31.511749 -0.563597"/>
+    <point index="59" value=" 0.133184 31.506680 -0.555402"/>
+  </shape>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="C_head_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="0" defaultValue="0.000" size="60" max="59">
+    <point index="0" value="1.000"/>
+    <point index="1" value="1.000"/>
+    <point index="2" value="0.761"/>
+    <point index="3" value="0.761"/>
+    <point index="4" value="0.895"/>
+    <point index="5" value="0.895"/>
+    <point index="6" value="0.968"/>
+    <point index="7" value="0.969"/>
+    <point index="8" value="0.822"/>
+    <point index="9" value="0.822"/>
+    <point index="10" value="0.993"/>
+    <point index="11" value="0.969"/>
+    <point index="12" value="0.934"/>
+    <point index="13" value="0.934"/>
+    <point index="14" value="0.858"/>
+    <point index="15" value="0.895"/>
+    <point index="16" value="0.857"/>
+    <point index="17" value="0.822"/>
+    <point index="18" value="0.789"/>
+    <point index="19" value="0.761"/>
+    <point index="20" value="0.790"/>
+    <point index="21" value="0.993"/>
+    <point index="22" value="1.000"/>
+    <point index="23" value="0.857"/>
+    <point index="24" value="0.790"/>
+    <point index="25" value="0.993"/>
+    <point index="26" value="0.934"/>
+    <point index="27" value="0.822"/>
+    <point index="28" value="0.858"/>
+    <point index="29" value="0.857"/>
+    <point index="30" value="0.822"/>
+    <point index="31" value="0.895"/>
+    <point index="32" value="0.895"/>
+    <point index="33" value="0.895"/>
+    <point index="34" value="0.857"/>
+    <point index="35" value="0.822"/>
+    <point index="36" value="0.790"/>
+    <point index="37" value="0.790"/>
+    <point index="38" value="0.790"/>
+    <point index="39" value="0.761"/>
+    <point index="40" value="0.761"/>
+    <point index="41" value="0.761"/>
+    <point index="42" value="0.968"/>
+    <point index="43" value="0.993"/>
+    <point index="44" value="0.993"/>
+    <point index="45" value="0.969"/>
+    <point index="46" value="1.000"/>
+    <point index="47" value="1.000"/>
+    <point index="48" value="1.000"/>
+    <point index="49" value="0.993"/>
+    <point index="50" value="0.968"/>
+    <point index="51" value="0.934"/>
+    <point index="52" value="0.934"/>
+    <point index="53" value="0.934"/>
+    <point index="54" value="0.998"/>
+    <point index="55" value="0.998"/>
+    <point index="56" value="0.998"/>
+    <point index="57" value="0.998"/>
+    <point index="58" value="0.998"/>
+    <point index="59" value="0.998"/>
+  </weights>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="C_neck_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="1" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="C_neck_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="2" defaultValue="0.000" size="54" max="59">
+    <point index="2" value="0.239"/>
+    <point index="3" value="0.239"/>
+    <point index="4" value="0.105"/>
+    <point index="5" value="0.105"/>
+    <point index="6" value="0.032"/>
+    <point index="7" value="0.031"/>
+    <point index="8" value="0.178"/>
+    <point index="9" value="0.178"/>
+    <point index="10" value="0.007"/>
+    <point index="11" value="0.031"/>
+    <point index="12" value="0.066"/>
+    <point index="13" value="0.066"/>
+    <point index="14" value="0.142"/>
+    <point index="15" value="0.105"/>
+    <point index="16" value="0.143"/>
+    <point index="17" value="0.178"/>
+    <point index="18" value="0.211"/>
+    <point index="19" value="0.239"/>
+    <point index="20" value="0.210"/>
+    <point index="21" value="0.007"/>
+    <point index="23" value="0.143"/>
+    <point index="24" value="0.210"/>
+    <point index="25" value="0.007"/>
+    <point index="26" value="0.066"/>
+    <point index="27" value="0.178"/>
+    <point index="28" value="0.142"/>
+    <point index="29" value="0.143"/>
+    <point index="30" value="0.178"/>
+    <point index="31" value="0.105"/>
+    <point index="32" value="0.105"/>
+    <point index="33" value="0.105"/>
+    <point index="34" value="0.143"/>
+    <point index="35" value="0.178"/>
+    <point index="36" value="0.210"/>
+    <point index="37" value="0.210"/>
+    <point index="38" value="0.210"/>
+    <point index="39" value="0.239"/>
+    <point index="40" value="0.239"/>
+    <point index="41" value="0.239"/>
+    <point index="42" value="0.032"/>
+    <point index="43" value="0.007"/>
+    <point index="44" value="0.007"/>
+    <point index="45" value="0.031"/>
+    <point index="49" value="0.007"/>
+    <point index="50" value="0.032"/>
+    <point index="51" value="0.066"/>
+    <point index="52" value="0.066"/>
+    <point index="53" value="0.066"/>
+    <point index="54" value="0.002"/>
+    <point index="55" value="0.002"/>
+    <point index="56" value="0.002"/>
+    <point index="57" value="0.002"/>
+    <point index="58" value="0.002"/>
+    <point index="59" value="0.002"/>
+  </weights>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_clavicle" shape="Helmet_Feather_02_GeoShape" layer="3" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_clavicle" shape="Helmet_Feather_02_GeoShape" layer="4" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="C_Spine00" shape="Helmet_Feather_02_GeoShape" layer="5" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="C_Spine01" shape="Helmet_Feather_02_GeoShape" layer="6" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="C_Spine02" shape="Helmet_Feather_02_GeoShape" layer="7" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="C_Spine03" shape="Helmet_Feather_02_GeoShape" layer="8" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="C_Spine04" shape="Helmet_Feather_02_GeoShape" layer="9" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperLeg_Twist_00" shape="Helmet_Feather_02_GeoShape" layer="10" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperLeg_Twist_01" shape="Helmet_Feather_02_GeoShape" layer="11" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperLeg_Twist_02" shape="Helmet_Feather_02_GeoShape" layer="12" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperLeg_Twist_03" shape="Helmet_Feather_02_GeoShape" layer="13" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperLeg_Twist_04" shape="Helmet_Feather_02_GeoShape" layer="14" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperLeg_Twist_05" shape="Helmet_Feather_02_GeoShape" layer="15" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperArm_Twist_00" shape="Helmet_Feather_02_GeoShape" layer="16" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperArm_Twist_01" shape="Helmet_Feather_02_GeoShape" layer="17" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperArm_Twist_02" shape="Helmet_Feather_02_GeoShape" layer="18" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperArm_Twist_03" shape="Helmet_Feather_02_GeoShape" layer="19" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperArm_Twist_04" shape="Helmet_Feather_02_GeoShape" layer="20" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_UpperArm_Twist_05" shape="Helmet_Feather_02_GeoShape" layer="21" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerLeg_Twist_00" shape="Helmet_Feather_02_GeoShape" layer="22" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerLeg_Twist_01" shape="Helmet_Feather_02_GeoShape" layer="23" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerLeg_Twist_02" shape="Helmet_Feather_02_GeoShape" layer="24" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerLeg_Twist_03" shape="Helmet_Feather_02_GeoShape" layer="25" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerLeg_Twist_04" shape="Helmet_Feather_02_GeoShape" layer="26" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerLeg_Twist_05" shape="Helmet_Feather_02_GeoShape" layer="27" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerArm_Twist_00" shape="Helmet_Feather_02_GeoShape" layer="28" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerArm_Twist_01" shape="Helmet_Feather_02_GeoShape" layer="29" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerArm_Twist_02" shape="Helmet_Feather_02_GeoShape" layer="30" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerArm_Twist_03" shape="Helmet_Feather_02_GeoShape" layer="31" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerArm_Twist_04" shape="Helmet_Feather_02_GeoShape" layer="32" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_LowerArm_Twist_05" shape="Helmet_Feather_02_GeoShape" layer="33" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperLeg_Twist_00" shape="Helmet_Feather_02_GeoShape" layer="34" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperLeg_Twist_01" shape="Helmet_Feather_02_GeoShape" layer="35" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperLeg_Twist_02" shape="Helmet_Feather_02_GeoShape" layer="36" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperLeg_Twist_03" shape="Helmet_Feather_02_GeoShape" layer="37" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperLeg_Twist_04" shape="Helmet_Feather_02_GeoShape" layer="38" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperLeg_Twist_05" shape="Helmet_Feather_02_GeoShape" layer="39" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperArm_Twist_00" shape="Helmet_Feather_02_GeoShape" layer="40" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperArm_Twist_01" shape="Helmet_Feather_02_GeoShape" layer="41" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperArm_Twist_02" shape="Helmet_Feather_02_GeoShape" layer="42" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperArm_Twist_03" shape="Helmet_Feather_02_GeoShape" layer="43" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperArm_Twist_04" shape="Helmet_Feather_02_GeoShape" layer="44" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_UpperArm_Twist_05" shape="Helmet_Feather_02_GeoShape" layer="45" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerLeg_Twist_00" shape="Helmet_Feather_02_GeoShape" layer="46" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerLeg_Twist_01" shape="Helmet_Feather_02_GeoShape" layer="47" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerLeg_Twist_02" shape="Helmet_Feather_02_GeoShape" layer="48" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerLeg_Twist_03" shape="Helmet_Feather_02_GeoShape" layer="49" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerLeg_Twist_04" shape="Helmet_Feather_02_GeoShape" layer="50" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerLeg_Twist_05" shape="Helmet_Feather_02_GeoShape" layer="51" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerArm_Twist_00" shape="Helmet_Feather_02_GeoShape" layer="52" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerArm_Twist_01" shape="Helmet_Feather_02_GeoShape" layer="53" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerArm_Twist_02" shape="Helmet_Feather_02_GeoShape" layer="54" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerArm_Twist_03" shape="Helmet_Feather_02_GeoShape" layer="55" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerArm_Twist_04" shape="Helmet_Feather_02_GeoShape" layer="56" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_LowerArm_Twist_05" shape="Helmet_Feather_02_GeoShape" layer="57" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_ankle" shape="Helmet_Feather_02_GeoShape" layer="58" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_ball" shape="Helmet_Feather_02_GeoShape" layer="59" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_wrist" shape="Helmet_Feather_02_GeoShape" layer="60" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_pinky_00_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="61" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_pinky_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="62" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_pinky_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="63" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_pinky_03_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="64" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_ring_00_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="65" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_ring_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="66" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_ring_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="67" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_ring_03_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="68" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_middle_00_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="69" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_middle_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="70" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_middle_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="71" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_middle_03_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="72" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_index_00_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="73" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_index_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="74" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_index_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="75" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_index_03_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="76" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_thumb_00_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="77" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_thumb_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="78" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_thumb_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="79" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="L_thumb_03_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="80" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_ankle" shape="Helmet_Feather_02_GeoShape" layer="81" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_ball" shape="Helmet_Feather_02_GeoShape" layer="82" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_wrist" shape="Helmet_Feather_02_GeoShape" layer="83" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_pinky_00_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="84" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_pinky_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="85" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_pinky_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="86" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_pinky_03_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="87" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_ring_00_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="88" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_ring_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="89" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_ring_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="90" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_ring_03_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="91" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_middle_00_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="92" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_middle_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="93" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_middle_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="94" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_middle_03_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="95" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_index_00_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="96" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_index_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="97" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_index_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="98" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_index_03_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="99" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_thumb_00_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="100" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_thumb_01_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="101" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_thumb_02_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="102" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="Helmet_Feather_02_Geo_skinCluster" source="R_thumb_03_FK_CTL" shape="Helmet_Feather_02_GeoShape" layer="103" defaultValue="0.000" size="0" max="0"/>
+</deformerWeight>

@@ -25,7 +25,7 @@ class Main(object):
         # global_ctl = self.customControl('{}_Global_CTL'.format(characterName))
         cmds.setAttr('{}_Global_CTLShape'.format(self.characterName) + '.overrideEnabled', True)
         cmds.setAttr('{}_Global_CTLShape'.format(self.characterName) + '.overrideColor', 17)
-        # cmds.setAttr('{}_Global_CTLShape'.format(characterName) + '.lineWidth', 1.5)
+        cmds.setAttr('{}_Global_CTLShape'.format(characterName) + '.lineWidth', 2)
         # cmds.addAttr(global_ctl, shortName='GlobalScale', longName='globalScale', defaultValue=1.0, minValue=0,
         # k=True)
         offset_grp(global_ctl, 'GRP')
@@ -34,7 +34,7 @@ class Main(object):
                                ch=False)
         cmds.setAttr('{}_Main_CTLShape'.format(self.characterName) + '.overrideEnabled', True)
         cmds.setAttr('{}_Main_CTLShape'.format(self.characterName) + '.overrideColor', 17)
-        # cmds.setAttr('{}_Main_CTLShape'.format(characterName) + '.lineWidth', 1.5)
+        cmds.setAttr('{}_Main_CTLShape'.format(characterName) + '.lineWidth', 2)
         offset_grp(main_ctl, 'GRP')
 
         cmds.parent('{}_Main_CTL_GRP'.format(self.characterName), '{}_Global_CTL'.format(self.characterName))
@@ -98,6 +98,12 @@ class Main(object):
         Constraint(['C_Chest_CTL', 'R_Clavicle_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
         Constraint(['C_Pelvis_CTL', 'L_Leg_Main_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
         Constraint(['C_Pelvis_CTL', 'R_Leg_Main_CTL_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
+        
+        # --- Constraint inverse stretch
+        Constraint(['L_Clavicle_CTL', 'L_Arm_JNT_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
+        Constraint(['R_Clavicle_CTL', 'R_Arm_JNT_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
+        Constraint(['C_Pelvis_CTL', 'L_Leg_JNT_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
+        Constraint(['C_Pelvis_CTL', 'R_Leg_JNT_GRP'], mo=True, jnt=False, point=True, orient=True, scale=False)
 
         # --- Head effects
         cmds.parent('C_head_FK_CTL_GRP', 'C_Head_GRP')
@@ -139,6 +145,9 @@ class Main(object):
         #                u'R_ankle|R_ball', u'L_ankle|L_ball|L_ball', u'R_ankle|R_ball|R_ball', u'R_UpperArm_Twist_01',
         #                u'R_UpperArm_Twist_00', u'R_UpperArm_Twist_02', u'R_UpperArm_Twist_03', u'R_LowerArm_Twist_01',
         #                u'R_LowerArm_Twist_00', u'R_LowerArm_Twist_02', u'R_LowerArm_Twist_03', u'R_LowerArm_Twist_05']
+        
+        # for jnt in skin_joints:
+        #     cmds.
         
 
 

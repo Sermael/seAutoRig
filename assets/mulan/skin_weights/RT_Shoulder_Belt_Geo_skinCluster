@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<deformerWeight>
+  <headerInfo fileName="C:/Users/e_che/Documents/maya/2025/scripts/seAutoRig/assets/mulan/skin_weights/RT_Shoulder_Belt_Geo_skinCluster" worldMatrix="1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 "/>
+  <shape name="RT_Shoulder_Belt_GeoShape" group="0" stride="3" size="154" max="153">
+    <point index="0" value=" -0.984061 23.992706 1.171793"/>
+    <point index="1" value=" -1.519405 23.804901 1.049946"/>
+    <point index="2" value=" -1.054614 24.819246 -1.849607"/>
+    <point index="3" value=" -1.535382 24.593956 -1.789329"/>
+    <point index="4" value=" -1.111302 24.436625 0.845455"/>
+    <point index="5" value=" -1.634709 24.289022 0.749412"/>
+    <point index="6" value=" -1.357700 25.414463 -0.240478"/>
+    <point index="7" value=" -1.867886 25.336103 -0.261307"/>
+    <point index="8" value=" -1.653050 24.958832 -1.696776"/>
+    <point index="9" value=" -1.163552 25.134186 -1.717372"/>
+    <point index="10" value=" -1.755733 25.299017 -1.481407"/>
+    <point index="11" value=" -1.272309 25.434465 -1.469384"/>
+    <point index="12" value=" -1.823002 25.071978 0.158222"/>
+    <point index="13" value=" -1.296269 25.150053 0.177795"/>
+    <point index="14" value=" -1.743724 24.700432 0.484364"/>
+    <point index="15" value=" -1.210187 24.804546 0.520010"/>
+    <point index="16" value=" -1.825049 25.464657 -1.128123"/>
+    <point index="17" value=" -1.337300 25.577028 -1.097674"/>
+    <point index="18" value=" -1.867596 25.454462 -0.687722"/>
+    <point index="19" value=" -1.367280 25.543879 -0.657311"/>
+    <point index="20" value=" -1.294998 24.706602 -1.819468"/>
+    <point index="21" value=" -1.408301 25.046509 -1.707074"/>
+    <point index="22" value=" -1.514021 25.366741 -1.475395"/>
+    <point index="23" value=" -1.581175 25.520842 -1.112899"/>
+    <point index="24" value=" -1.617438 25.499170 -0.672517"/>
+    <point index="25" value=" -1.612793 25.375284 -0.250893"/>
+    <point index="26" value=" -1.559655 25.111021 0.168011"/>
+    <point index="27" value=" -1.475883 24.751991 0.502180"/>
+    <point index="28" value=" -1.372560 24.361979 0.798122"/>
+    <point index="29" value=" -1.253313 23.897617 1.111481"/>
+    <point index="30" value=" -1.045284 24.197752 1.020319"/>
+    <point index="31" value=" -1.308619 24.112925 0.967288"/>
+    <point index="32" value=" -1.562969 24.019346 0.897986"/>
+    <point index="33" value=" -1.620907 25.420742 -0.229975"/>
+    <point index="34" value=" -1.874358 25.372444 -0.244842"/>
+    <point index="35" value=" -1.875195 25.493807 -0.681823"/>
+    <point index="36" value=" -1.626951 25.548244 -0.664597"/>
+    <point index="37" value=" -1.325371 24.136295 1.008169"/>
+    <point index="38" value=" -1.577259 24.037663 0.931553"/>
+    <point index="39" value=" -1.645985 24.308378 0.783444"/>
+    <point index="40" value=" -1.386345 24.387463 0.839147"/>
+    <point index="41" value=" -1.751413 24.724094 0.516541"/>
+    <point index="42" value=" -1.485548 24.782238 0.541177"/>
+    <point index="43" value=" -1.660069 24.973886 -1.733531"/>
+    <point index="44" value=" -1.417628 25.066853 -1.752643"/>
+    <point index="45" value=" -1.542405 24.603050 -1.828524"/>
+    <point index="46" value=" -1.304166 24.719252 -1.866821"/>
+    <point index="47" value=" -1.763433 25.327465 -1.507377"/>
+    <point index="48" value=" -1.524340 25.404699 -1.508440"/>
+    <point index="49" value=" -1.828986 25.102131 0.184486"/>
+    <point index="50" value=" -1.567200 25.148935 0.200691"/>
+    <point index="51" value=" -1.833349 25.502600 -1.136580"/>
+    <point index="52" value=" -1.591941 25.569824 -1.122989"/>
+    <point index="53" value=" -1.171345 25.151424 -1.753030"/>
+    <point index="54" value=" -1.062604 24.830854 -1.887944"/>
+    <point index="55" value=" -1.280403 25.464130 -1.494014"/>
+    <point index="56" value=" -1.345734 25.615236 -1.104882"/>
+    <point index="57" value=" -1.374910 25.583101 -0.650506"/>
+    <point index="58" value=" -1.364166 25.450663 -0.223614"/>
+    <point index="59" value=" -1.302336 25.180565 0.203755"/>
+    <point index="60" value=" -1.218153 24.829849 0.550929"/>
+    <point index="61" value=" -1.122297 24.458511 0.878054"/>
+    <point index="62" value=" -1.058356 24.217590 1.053537"/>
+    <point index="63" value=" -0.997720 24.012249 1.204958"/>
+    <point index="64" value=" -1.270838 23.921089 1.151852"/>
+    <point index="65" value=" -1.534493 23.824024 1.082732"/>
+    <point index="66" value=" -1.478929 23.843376 1.095587"/>
+    <point index="67" value=" -1.524165 24.057316 0.945951"/>
+    <point index="68" value=" -1.591373 24.323847 0.793456"/>
+    <point index="69" value=" -1.695667 24.735014 0.520146"/>
+    <point index="70" value=" -1.774161 25.110353 0.186542"/>
+    <point index="71" value=" -1.821246 25.380665 -0.242597"/>
+    <point index="72" value=" -1.823114 25.503172 -0.678553"/>
+    <point index="73" value=" -1.782621 25.514544 -1.133323"/>
+    <point index="74" value=" -1.713199 25.341930 -1.506189"/>
+    <point index="75" value=" -1.609199 24.992418 -1.735657"/>
+    <point index="76" value=" -1.492444 24.626772 -1.834711"/>
+    <point index="77" value=" -1.055082 23.992001 1.192103"/>
+    <point index="78" value=" -1.114441 24.199411 1.042308"/>
+    <point index="79" value=" -1.177850 24.442394 0.868167"/>
+    <point index="80" value=" -1.274583 24.818520 0.547301"/>
+    <point index="81" value=" -1.358301 25.172287 0.201759"/>
+    <point index="82" value=" -1.418382 25.442430 -0.225833"/>
+    <point index="83" value=" -1.428073 25.573683 -0.653823"/>
+    <point index="84" value=" -1.397586 25.603489 -1.108294"/>
+    <point index="85" value=" -1.331784 25.449850 -1.495641"/>
+    <point index="86" value=" -1.223287 25.132608 -1.751056"/>
+    <point index="87" value=" -1.113577 24.806654 -1.881631"/>
+    <point index="88" value=" -1.031841 24.010160 1.211724"/>
+    <point index="89" value=" -1.091655 24.216736 1.061280"/>
+    <point index="90" value=" -1.154667 24.459885 0.886532"/>
+    <point index="91" value=" -1.249642 24.835051 0.561772"/>
+    <point index="92" value=" -1.332891 25.189730 0.213970"/>
+    <point index="93" value=" -1.394029 25.462427 -0.217203"/>
+    <point index="94" value=" -1.404715 25.595457 -0.649071"/>
+    <point index="95" value=" -1.375499 25.627325 -1.109779"/>
+    <point index="96" value=" -1.309918 25.471523 -1.506395"/>
+    <point index="97" value=" -1.200821 25.150137 -1.767632"/>
+    <point index="98" value=" -1.091384 24.823887 -1.899991"/>
+    <point index="99" value=" -1.513230 23.841438 1.102057"/>
+    <point index="100" value=" -1.557041 24.054815 0.952687"/>
+    <point index="101" value=" -1.623781 24.323633 0.802944"/>
+    <point index="102" value=" -1.727193 24.739302 0.532204"/>
+    <point index="103" value=" -1.804675 25.119415 0.197184"/>
+    <point index="104" value=" -1.851111 25.392590 -0.236459"/>
+    <point index="105" value=" -1.852917 25.515669 -0.677808"/>
+    <point index="106" value=" -1.812330 25.526266 -1.139235"/>
+    <point index="107" value=" -1.742475 25.348225 -1.519680"/>
+    <point index="108" value=" -1.638083 24.989408 -1.751131"/>
+    <point index="109" value=" -1.520500 24.618038 -1.847383"/>
+    <point index="110" value=" -1.129549 24.799070 -1.879653"/>
+    <point index="111" value=" -1.239562 25.126711 -1.750438"/>
+    <point index="112" value=" -1.347883 25.445374 -1.496150"/>
+    <point index="113" value=" -1.413833 25.599808 -1.109364"/>
+    <point index="114" value=" -1.444731 25.570732 -0.654863"/>
+    <point index="115" value=" -1.435370 25.439852 -0.226529"/>
+    <point index="116" value=" -1.375837 25.169695 0.201133"/>
+    <point index="117" value=" -1.292264 24.814968 0.546164"/>
+    <point index="118" value=" -1.195257 24.437344 0.865069"/>
+    <point index="119" value=" -1.132015 24.193716 1.038790"/>
+    <point index="120" value=" -1.073056 23.985655 1.188075"/>
+    <point index="121" value=" -1.475546 24.634794 -1.836804"/>
+    <point index="122" value=" -1.591993 24.998688 -1.736377"/>
+    <point index="123" value=" -1.696209 25.346823 -1.505787"/>
+    <point index="124" value=" -1.765464 25.518585 -1.132222"/>
+    <point index="125" value=" -1.805499 25.506338 -0.677447"/>
+    <point index="126" value=" -1.803282 25.383448 -0.241837"/>
+    <point index="127" value=" -1.755618 25.113134 0.187238"/>
+    <point index="128" value=" -1.676812 24.738707 0.521365"/>
+    <point index="129" value=" -1.572902 24.329079 0.796843"/>
+    <point index="130" value=" -1.506207 24.063963 0.950821"/>
+    <point index="131" value=" -1.460135 23.849922 1.099935"/>
+    <point index="132" value=" -1.482491 24.628895 -1.827098"/>
+    <point index="133" value=" -1.598893 24.991968 -1.726967"/>
+    <point index="134" value=" -1.702621 25.336853 -1.498968"/>
+    <point index="135" value=" -1.771867 25.506790 -1.130482"/>
+    <point index="136" value=" -1.812461 25.495295 -0.679350"/>
+    <point index="137" value=" -1.810673 25.373234 -0.246222"/>
+    <point index="138" value=" -1.763419 25.104477 0.180495"/>
+    <point index="139" value=" -1.684466 24.731424 0.513187"/>
+    <point index="140" value=" -1.579552 24.322182 0.787210"/>
+    <point index="141" value=" -1.511949 24.056530 0.940735"/>
+    <point index="142" value=" -1.466197 23.842358 1.090599"/>
+    <point index="143" value=" -1.119752 24.800144 -1.872267"/>
+    <point index="144" value=" -1.229491 25.125292 -1.742143"/>
+    <point index="145" value=" -1.337710 25.439676 -1.489486"/>
+    <point index="146" value=" -1.403569 25.591797 -1.107032"/>
+    <point index="147" value=" -1.434596 25.562841 -0.656011"/>
+    <point index="148" value=" -1.425326 25.432425 -0.230297"/>
+    <point index="149" value=" -1.365618 25.163696 0.195271"/>
+    <point index="150" value=" -1.281592 24.810831 0.539735"/>
+    <point index="151" value=" -1.184005 24.434767 0.859228"/>
+    <point index="152" value=" -1.120310 24.192091 1.033203"/>
+    <point index="153" value=" -1.061050 23.984461 1.182832"/>
+  </shape>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="C_head_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="0" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="C_neck_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="1" defaultValue="0.000" size="76" max="148">
+    <point index="2" value="0.549"/>
+    <point index="3" value="0.173"/>
+    <point index="6" value="0.454"/>
+    <point index="8" value="0.176"/>
+    <point index="9" value="0.577"/>
+    <point index="10" value="0.183"/>
+    <point index="11" value="0.600"/>
+    <point index="16" value="0.155"/>
+    <point index="17" value="0.596"/>
+    <point index="19" value="0.533"/>
+    <point index="20" value="0.335"/>
+    <point index="21" value="0.347"/>
+    <point index="22" value="0.359"/>
+    <point index="23" value="0.331"/>
+    <point index="24" value="0.253"/>
+    <point index="33" value="0.214"/>
+    <point index="35" value="0.111"/>
+    <point index="36" value="0.270"/>
+    <point index="43" value="0.184"/>
+    <point index="44" value="0.354"/>
+    <point index="45" value="0.179"/>
+    <point index="46" value="0.339"/>
+    <point index="47" value="0.193"/>
+    <point index="48" value="0.370"/>
+    <point index="51" value="0.166"/>
+    <point index="52" value="0.346"/>
+    <point index="53" value="0.576"/>
+    <point index="54" value="0.547"/>
+    <point index="55" value="0.602"/>
+    <point index="56" value="0.603"/>
+    <point index="57" value="0.543"/>
+    <point index="58" value="0.466"/>
+    <point index="72" value="0.134"/>
+    <point index="73" value="0.194"/>
+    <point index="74" value="0.222"/>
+    <point index="75" value="0.212"/>
+    <point index="76" value="0.207"/>
+    <point index="82" value="0.402"/>
+    <point index="83" value="0.478"/>
+    <point index="84" value="0.545"/>
+    <point index="85" value="0.552"/>
+    <point index="86" value="0.528"/>
+    <point index="87" value="0.502"/>
+    <point index="93" value="0.439"/>
+    <point index="94" value="0.515"/>
+    <point index="95" value="0.578"/>
+    <point index="96" value="0.579"/>
+    <point index="97" value="0.552"/>
+    <point index="98" value="0.524"/>
+    <point index="105" value="0.127"/>
+    <point index="106" value="0.185"/>
+    <point index="107" value="0.212"/>
+    <point index="108" value="0.201"/>
+    <point index="109" value="0.195"/>
+    <point index="110" value="0.487"/>
+    <point index="111" value="0.513"/>
+    <point index="112" value="0.536"/>
+    <point index="113" value="0.527"/>
+    <point index="114" value="0.458"/>
+    <point index="115" value="0.383"/>
+    <point index="121" value="0.216"/>
+    <point index="122" value="0.223"/>
+    <point index="123" value="0.233"/>
+    <point index="124" value="0.205"/>
+    <point index="125" value="0.143"/>
+    <point index="132" value="0.210"/>
+    <point index="133" value="0.215"/>
+    <point index="134" value="0.225"/>
+    <point index="135" value="0.196"/>
+    <point index="136" value="0.136"/>
+    <point index="143" value="0.495"/>
+    <point index="144" value="0.520"/>
+    <point index="145" value="0.543"/>
+    <point index="146" value="0.534"/>
+    <point index="147" value="0.465"/>
+    <point index="148" value="0.390"/>
+  </weights>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="C_neck_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="2" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_clavicle" shape="RT_Shoulder_Belt_GeoShape" layer="3" defaultValue="0.000" size="26" max="153">
+    <point index="0" value="0.331"/>
+    <point index="4" value="0.253"/>
+    <point index="15" value="0.225"/>
+    <point index="29" value="0.329"/>
+    <point index="30" value="0.292"/>
+    <point index="31" value="0.300"/>
+    <point index="37" value="0.304"/>
+    <point index="60" value="0.231"/>
+    <point index="61" value="0.258"/>
+    <point index="62" value="0.296"/>
+    <point index="63" value="0.333"/>
+    <point index="64" value="0.332"/>
+    <point index="77" value="0.332"/>
+    <point index="78" value="0.297"/>
+    <point index="79" value="0.261"/>
+    <point index="80" value="0.237"/>
+    <point index="88" value="0.334"/>
+    <point index="89" value="0.298"/>
+    <point index="90" value="0.262"/>
+    <point index="91" value="0.236"/>
+    <point index="118" value="0.263"/>
+    <point index="119" value="0.297"/>
+    <point index="120" value="0.332"/>
+    <point index="151" value="0.261"/>
+    <point index="152" value="0.296"/>
+    <point index="153" value="0.331"/>
+  </weights>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_clavicle" shape="RT_Shoulder_Belt_GeoShape" layer="4" defaultValue="0.000" size="75" max="153">
+    <point index="0" value="0.669"/>
+    <point index="1" value="0.587"/>
+    <point index="4" value="0.747"/>
+    <point index="5" value="0.452"/>
+    <point index="12" value="0.138"/>
+    <point index="13" value="0.642"/>
+    <point index="14" value="0.268"/>
+    <point index="15" value="0.775"/>
+    <point index="25" value="0.199"/>
+    <point index="26" value="0.339"/>
+    <point index="27" value="0.546"/>
+    <point index="28" value="0.701"/>
+    <point index="29" value="0.671"/>
+    <point index="30" value="0.708"/>
+    <point index="31" value="0.700"/>
+    <point index="32" value="0.541"/>
+    <point index="37" value="0.696"/>
+    <point index="38" value="0.540"/>
+    <point index="39" value="0.456"/>
+    <point index="40" value="0.698"/>
+    <point index="41" value="0.279"/>
+    <point index="42" value="0.552"/>
+    <point index="49" value="0.149"/>
+    <point index="50" value="0.352"/>
+    <point index="59" value="0.643"/>
+    <point index="60" value="0.769"/>
+    <point index="61" value="0.742"/>
+    <point index="62" value="0.704"/>
+    <point index="63" value="0.667"/>
+    <point index="64" value="0.668"/>
+    <point index="65" value="0.584"/>
+    <point index="66" value="0.621"/>
+    <point index="67" value="0.583"/>
+    <point index="68" value="0.507"/>
+    <point index="69" value="0.327"/>
+    <point index="70" value="0.180"/>
+    <point index="71" value="0.106"/>
+    <point index="77" value="0.668"/>
+    <point index="78" value="0.703"/>
+    <point index="79" value="0.739"/>
+    <point index="80" value="0.763"/>
+    <point index="81" value="0.581"/>
+    <point index="88" value="0.666"/>
+    <point index="89" value="0.702"/>
+    <point index="90" value="0.738"/>
+    <point index="91" value="0.764"/>
+    <point index="92" value="0.614"/>
+    <point index="99" value="0.601"/>
+    <point index="100" value="0.561"/>
+    <point index="101" value="0.482"/>
+    <point index="102" value="0.307"/>
+    <point index="103" value="0.169"/>
+    <point index="104" value="0.101"/>
+    <point index="116" value="0.561"/>
+    <point index="117" value="0.752"/>
+    <point index="118" value="0.737"/>
+    <point index="119" value="0.703"/>
+    <point index="120" value="0.668"/>
+    <point index="126" value="0.113"/>
+    <point index="127" value="0.191"/>
+    <point index="128" value="0.345"/>
+    <point index="129" value="0.524"/>
+    <point index="130" value="0.598"/>
+    <point index="131" value="0.633"/>
+    <point index="137" value="0.108"/>
+    <point index="138" value="0.183"/>
+    <point index="139" value="0.333"/>
+    <point index="140" value="0.515"/>
+    <point index="141" value="0.591"/>
+    <point index="142" value="0.628"/>
+    <point index="149" value="0.570"/>
+    <point index="150" value="0.761"/>
+    <point index="151" value="0.739"/>
+    <point index="152" value="0.704"/>
+    <point index="153" value="0.669"/>
+  </weights>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="C_Spine00" shape="RT_Shoulder_Belt_GeoShape" layer="5" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="C_Spine01" shape="RT_Shoulder_Belt_GeoShape" layer="6" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="C_Spine02" shape="RT_Shoulder_Belt_GeoShape" layer="7" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="C_Spine03" shape="RT_Shoulder_Belt_GeoShape" layer="8" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="C_Spine04" shape="RT_Shoulder_Belt_GeoShape" layer="9" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperLeg_Twist_00" shape="RT_Shoulder_Belt_GeoShape" layer="10" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperLeg_Twist_01" shape="RT_Shoulder_Belt_GeoShape" layer="11" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperLeg_Twist_02" shape="RT_Shoulder_Belt_GeoShape" layer="12" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperLeg_Twist_03" shape="RT_Shoulder_Belt_GeoShape" layer="13" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperLeg_Twist_04" shape="RT_Shoulder_Belt_GeoShape" layer="14" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperLeg_Twist_05" shape="RT_Shoulder_Belt_GeoShape" layer="15" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperArm_Twist_00" shape="RT_Shoulder_Belt_GeoShape" layer="16" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperArm_Twist_01" shape="RT_Shoulder_Belt_GeoShape" layer="17" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperArm_Twist_02" shape="RT_Shoulder_Belt_GeoShape" layer="18" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperArm_Twist_03" shape="RT_Shoulder_Belt_GeoShape" layer="19" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperArm_Twist_04" shape="RT_Shoulder_Belt_GeoShape" layer="20" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_UpperArm_Twist_05" shape="RT_Shoulder_Belt_GeoShape" layer="21" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerLeg_Twist_00" shape="RT_Shoulder_Belt_GeoShape" layer="22" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerLeg_Twist_01" shape="RT_Shoulder_Belt_GeoShape" layer="23" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerLeg_Twist_02" shape="RT_Shoulder_Belt_GeoShape" layer="24" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerLeg_Twist_03" shape="RT_Shoulder_Belt_GeoShape" layer="25" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerLeg_Twist_04" shape="RT_Shoulder_Belt_GeoShape" layer="26" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerLeg_Twist_05" shape="RT_Shoulder_Belt_GeoShape" layer="27" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerArm_Twist_00" shape="RT_Shoulder_Belt_GeoShape" layer="28" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerArm_Twist_01" shape="RT_Shoulder_Belt_GeoShape" layer="29" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerArm_Twist_02" shape="RT_Shoulder_Belt_GeoShape" layer="30" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerArm_Twist_03" shape="RT_Shoulder_Belt_GeoShape" layer="31" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerArm_Twist_04" shape="RT_Shoulder_Belt_GeoShape" layer="32" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_LowerArm_Twist_05" shape="RT_Shoulder_Belt_GeoShape" layer="33" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperLeg_Twist_00" shape="RT_Shoulder_Belt_GeoShape" layer="34" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperLeg_Twist_01" shape="RT_Shoulder_Belt_GeoShape" layer="35" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperLeg_Twist_02" shape="RT_Shoulder_Belt_GeoShape" layer="36" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperLeg_Twist_03" shape="RT_Shoulder_Belt_GeoShape" layer="37" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperLeg_Twist_04" shape="RT_Shoulder_Belt_GeoShape" layer="38" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperLeg_Twist_05" shape="RT_Shoulder_Belt_GeoShape" layer="39" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperArm_Twist_00" shape="RT_Shoulder_Belt_GeoShape" layer="40" defaultValue="0.000" size="128" max="150">
+    <point index="1" value="0.413"/>
+    <point index="2" value="0.451"/>
+    <point index="3" value="0.827"/>
+    <point index="5" value="0.548"/>
+    <point index="6" value="0.546"/>
+    <point index="7" value="0.911"/>
+    <point index="8" value="0.824"/>
+    <point index="9" value="0.423"/>
+    <point index="10" value="0.817"/>
+    <point index="11" value="0.400"/>
+    <point index="12" value="0.862"/>
+    <point index="13" value="0.358"/>
+    <point index="14" value="0.732"/>
+    <point index="16" value="0.845"/>
+    <point index="17" value="0.404"/>
+    <point index="18" value="0.898"/>
+    <point index="19" value="0.467"/>
+    <point index="20" value="0.665"/>
+    <point index="21" value="0.653"/>
+    <point index="22" value="0.641"/>
+    <point index="23" value="0.669"/>
+    <point index="24" value="0.747"/>
+    <point index="25" value="0.801"/>
+    <point index="26" value="0.661"/>
+    <point index="27" value="0.454"/>
+    <point index="28" value="0.299"/>
+    <point index="32" value="0.459"/>
+    <point index="33" value="0.786"/>
+    <point index="34" value="0.903"/>
+    <point index="35" value="0.889"/>
+    <point index="36" value="0.730"/>
+    <point index="38" value="0.460"/>
+    <point index="39" value="0.544"/>
+    <point index="40" value="0.302"/>
+    <point index="41" value="0.721"/>
+    <point index="42" value="0.448"/>
+    <point index="43" value="0.816"/>
+    <point index="44" value="0.646"/>
+    <point index="45" value="0.821"/>
+    <point index="46" value="0.661"/>
+    <point index="47" value="0.807"/>
+    <point index="48" value="0.630"/>
+    <point index="49" value="0.851"/>
+    <point index="50" value="0.648"/>
+    <point index="51" value="0.834"/>
+    <point index="52" value="0.654"/>
+    <point index="53" value="0.424"/>
+    <point index="54" value="0.453"/>
+    <point index="55" value="0.398"/>
+    <point index="56" value="0.397"/>
+    <point index="57" value="0.457"/>
+    <point index="58" value="0.534"/>
+    <point index="59" value="0.357"/>
+    <point index="65" value="0.416"/>
+    <point index="66" value="0.379"/>
+    <point index="67" value="0.417"/>
+    <point index="68" value="0.493"/>
+    <point index="69" value="0.673"/>
+    <point index="70" value="0.820"/>
+    <point index="71" value="0.894"/>
+    <point index="72" value="0.866"/>
+    <point index="73" value="0.806"/>
+    <point index="74" value="0.778"/>
+    <point index="75" value="0.788"/>
+    <point index="76" value="0.793"/>
+    <point index="81" value="0.419"/>
+    <point index="82" value="0.598"/>
+    <point index="83" value="0.522"/>
+    <point index="84" value="0.455"/>
+    <point index="85" value="0.448"/>
+    <point index="86" value="0.472"/>
+    <point index="87" value="0.498"/>
+    <point index="92" value="0.386"/>
+    <point index="93" value="0.561"/>
+    <point index="94" value="0.485"/>
+    <point index="95" value="0.422"/>
+    <point index="96" value="0.421"/>
+    <point index="97" value="0.448"/>
+    <point index="98" value="0.476"/>
+    <point index="99" value="0.399"/>
+    <point index="100" value="0.439"/>
+    <point index="101" value="0.518"/>
+    <point index="102" value="0.693"/>
+    <point index="103" value="0.831"/>
+    <point index="104" value="0.899"/>
+    <point index="105" value="0.873"/>
+    <point index="106" value="0.815"/>
+    <point index="107" value="0.788"/>
+    <point index="108" value="0.799"/>
+    <point index="109" value="0.805"/>
+    <point index="110" value="0.513"/>
+    <point index="111" value="0.487"/>
+    <point index="112" value="0.464"/>
+    <point index="113" value="0.473"/>
+    <point index="114" value="0.542"/>
+    <point index="115" value="0.617"/>
+    <point index="116" value="0.439"/>
+    <point index="117" value="0.248"/>
+    <point index="121" value="0.784"/>
+    <point index="122" value="0.777"/>
+    <point index="123" value="0.767"/>
+    <point index="124" value="0.795"/>
+    <point index="125" value="0.857"/>
+    <point index="126" value="0.887"/>
+    <point index="127" value="0.809"/>
+    <point index="128" value="0.655"/>
+    <point index="129" value="0.476"/>
+    <point index="130" value="0.402"/>
+    <point index="131" value="0.367"/>
+    <point index="132" value="0.790"/>
+    <point index="133" value="0.785"/>
+    <point index="134" value="0.775"/>
+    <point index="135" value="0.804"/>
+    <point index="136" value="0.864"/>
+    <point index="137" value="0.892"/>
+    <point index="138" value="0.817"/>
+    <point index="139" value="0.667"/>
+    <point index="140" value="0.485"/>
+    <point index="141" value="0.409"/>
+    <point index="142" value="0.372"/>
+    <point index="143" value="0.505"/>
+    <point index="144" value="0.480"/>
+    <point index="145" value="0.457"/>
+    <point index="146" value="0.466"/>
+    <point index="147" value="0.535"/>
+    <point index="148" value="0.610"/>
+    <point index="149" value="0.430"/>
+    <point index="150" value="0.239"/>
+  </weights>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperArm_Twist_01" shape="RT_Shoulder_Belt_GeoShape" layer="41" defaultValue="0.000" size="3" max="34">
+    <point index="7" value="0.089"/>
+    <point index="18" value="0.102"/>
+    <point index="34" value="0.097"/>
+  </weights>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperArm_Twist_02" shape="RT_Shoulder_Belt_GeoShape" layer="42" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperArm_Twist_03" shape="RT_Shoulder_Belt_GeoShape" layer="43" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperArm_Twist_04" shape="RT_Shoulder_Belt_GeoShape" layer="44" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_UpperArm_Twist_05" shape="RT_Shoulder_Belt_GeoShape" layer="45" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerLeg_Twist_00" shape="RT_Shoulder_Belt_GeoShape" layer="46" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerLeg_Twist_01" shape="RT_Shoulder_Belt_GeoShape" layer="47" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerLeg_Twist_02" shape="RT_Shoulder_Belt_GeoShape" layer="48" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerLeg_Twist_03" shape="RT_Shoulder_Belt_GeoShape" layer="49" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerLeg_Twist_04" shape="RT_Shoulder_Belt_GeoShape" layer="50" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerLeg_Twist_05" shape="RT_Shoulder_Belt_GeoShape" layer="51" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerArm_Twist_00" shape="RT_Shoulder_Belt_GeoShape" layer="52" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerArm_Twist_01" shape="RT_Shoulder_Belt_GeoShape" layer="53" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerArm_Twist_02" shape="RT_Shoulder_Belt_GeoShape" layer="54" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerArm_Twist_03" shape="RT_Shoulder_Belt_GeoShape" layer="55" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerArm_Twist_04" shape="RT_Shoulder_Belt_GeoShape" layer="56" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_LowerArm_Twist_05" shape="RT_Shoulder_Belt_GeoShape" layer="57" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_ankle" shape="RT_Shoulder_Belt_GeoShape" layer="58" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_ball" shape="RT_Shoulder_Belt_GeoShape" layer="59" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_wrist" shape="RT_Shoulder_Belt_GeoShape" layer="60" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_pinky_00_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="61" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_pinky_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="62" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_pinky_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="63" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_pinky_03_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="64" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_ring_00_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="65" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_ring_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="66" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_ring_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="67" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_ring_03_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="68" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_middle_00_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="69" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_middle_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="70" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_middle_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="71" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_middle_03_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="72" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_index_00_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="73" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_index_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="74" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_index_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="75" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_index_03_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="76" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_thumb_00_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="77" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_thumb_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="78" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_thumb_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="79" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="L_thumb_03_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="80" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_ankle" shape="RT_Shoulder_Belt_GeoShape" layer="81" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_ball" shape="RT_Shoulder_Belt_GeoShape" layer="82" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_wrist" shape="RT_Shoulder_Belt_GeoShape" layer="83" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_pinky_00_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="84" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_pinky_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="85" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_pinky_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="86" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_pinky_03_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="87" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_ring_00_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="88" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_ring_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="89" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_ring_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="90" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_ring_03_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="91" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_middle_00_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="92" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_middle_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="93" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_middle_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="94" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_middle_03_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="95" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_index_00_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="96" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_index_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="97" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_index_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="98" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_index_03_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="99" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_thumb_00_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="100" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_thumb_01_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="101" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_thumb_02_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="102" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="RT_Shoulder_Belt_Geo_skinCluster" source="R_thumb_03_FK_CTL" shape="RT_Shoulder_Belt_GeoShape" layer="103" defaultValue="0.000" size="0" max="0"/>
+</deformerWeight>

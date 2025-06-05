@@ -74,6 +74,7 @@ class Builder(object):
                 cmds.setAttr(group + ".scaleY", lock=True, keyable=False, channelBox=False)
                 cmds.setAttr(group + ".scaleZ", lock=True, keyable=False, channelBox=False)
 
+        print("\n")
         print('Done: L_Arm_Module'.format(self.moduleName))
         print('Done: R_Arm_Module'.format(self.moduleName))
         print('Done: L_Leg_Module'.format(self.moduleName))
@@ -81,10 +82,12 @@ class Builder(object):
         print('Done: Spine_Module'.format(self.moduleName))
         print('Done: Head_Module'.format(self.moduleName))
         print('Done: Main_Module'.format(self.moduleName))
-
+        print("\n")
+        
         c_skin = skin.SkinWeights(self.moduleName)
         c_skin.checkSkin()
-        print('DONE     Skin: {}'.format(self.moduleName))
+        c_skin.set_skin_joints()
+        print('\nDone: Skin {}'.format(self.moduleName))
 
     def save_rig(self):
         rig_file = rigs_scene_path % (assets_path, self.moduleName, self.moduleName)

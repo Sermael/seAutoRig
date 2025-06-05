@@ -1,0 +1,395 @@
+<?xml version="1.0"?>
+<deformerWeight>
+  <headerInfo fileName="C:/Users/e_che/Documents/maya/2025/scripts/seAutoRig/assets/mulan/skin_weights/LF_Iris_01_01_Local_Geo_skinCluster" worldMatrix="0.984808 0.000000 -0.173648 0.000000 0.000000 1.000000 0.000000 0.000000 0.173648 0.000000 0.984808 0.000000 0.686000 28.102126 0.895420 1.000000 "/>
+  <shape name="LF_Iris_01_01_Local_GeoShape" group="0" stride="3" size="121" max="120">
+    <point index="0" value=" 0.111048 0.029753 0.513362"/>
+    <point index="1" value=" 0.099563 0.057482 0.513362"/>
+    <point index="2" value=" 0.081293 0.081293 0.513362"/>
+    <point index="3" value=" 0.057483 0.099562 0.513362"/>
+    <point index="4" value=" 0.029755 0.111048 0.513362"/>
+    <point index="5" value=" 0.000000 0.114965 0.513362"/>
+    <point index="6" value=" -0.029756 0.111048 0.513362"/>
+    <point index="7" value=" -0.057484 0.099562 0.513362"/>
+    <point index="8" value=" -0.081294 0.081293 0.513362"/>
+    <point index="9" value=" -0.099564 0.057482 0.513362"/>
+    <point index="10" value=" -0.111049 0.029753 0.513362"/>
+    <point index="11" value=" -0.114967 -0.000000 0.513362"/>
+    <point index="12" value=" -0.111049 -0.029757 0.513362"/>
+    <point index="13" value=" -0.099564 -0.057482 0.513362"/>
+    <point index="14" value=" -0.081294 -0.081293 0.513362"/>
+    <point index="15" value=" -0.057484 -0.099566 0.513362"/>
+    <point index="16" value=" -0.029756 -0.111052 0.513362"/>
+    <point index="17" value=" 0.000000 -0.114969 0.513362"/>
+    <point index="18" value=" 0.029755 -0.111052 0.513362"/>
+    <point index="19" value=" 0.057483 -0.099566 0.513362"/>
+    <point index="20" value=" 0.081293 -0.081293 0.513362"/>
+    <point index="21" value=" 0.099563 -0.057482 0.513362"/>
+    <point index="22" value=" 0.111048 -0.029757 0.513362"/>
+    <point index="23" value=" 0.114966 -0.000000 0.513362"/>
+    <point index="24" value=" 0.000000 -0.000000 0.499894"/>
+    <point index="25" value=" -0.107213 0.185698 0.533538"/>
+    <point index="26" value=" -0.055498 0.207121 0.533538"/>
+    <point index="27" value=" 0.000000 0.214424 0.533538"/>
+    <point index="28" value=" 0.055497 0.207121 0.533538"/>
+    <point index="29" value=" 0.107212 0.185698 0.533538"/>
+    <point index="30" value=" 0.151621 0.151621 0.533538"/>
+    <point index="31" value=" 0.185697 0.107212 0.533538"/>
+    <point index="32" value=" 0.207118 0.055498 0.533538"/>
+    <point index="33" value=" 0.214425 -0.000000 0.533538"/>
+    <point index="34" value=" 0.207118 -0.055498 0.533538"/>
+    <point index="35" value=" 0.185697 -0.107216 0.533538"/>
+    <point index="36" value=" 0.151621 -0.151625 0.533538"/>
+    <point index="37" value=" 0.107212 -0.185698 0.533538"/>
+    <point index="38" value=" 0.055497 -0.207123 0.533538"/>
+    <point index="39" value=" 0.000000 -0.214426 0.533538"/>
+    <point index="40" value=" -0.055498 -0.207123 0.533538"/>
+    <point index="41" value=" -0.107213 -0.185698 0.533538"/>
+    <point index="42" value=" -0.151622 -0.151625 0.533538"/>
+    <point index="43" value=" -0.185698 -0.107216 0.533538"/>
+    <point index="44" value=" -0.207119 -0.055498 0.533538"/>
+    <point index="45" value=" -0.214426 -0.000000 0.533538"/>
+    <point index="46" value=" -0.207119 0.055498 0.533538"/>
+    <point index="47" value=" -0.185698 0.107212 0.533538"/>
+    <point index="48" value=" -0.151622 0.151621 0.533538"/>
+    <point index="49" value=" -0.216746 -0.058077 0.527952"/>
+    <point index="50" value=" -0.224391 -0.000000 0.527952"/>
+    <point index="51" value=" -0.216746 0.058077 0.527952"/>
+    <point index="52" value=" -0.194329 0.112196 0.527952"/>
+    <point index="53" value=" -0.158669 0.158670 0.527952"/>
+    <point index="54" value=" -0.112196 0.194326 0.527952"/>
+    <point index="55" value=" -0.058077 0.216745 0.527952"/>
+    <point index="56" value=" 0.000000 0.224390 0.527952"/>
+    <point index="57" value=" 0.058076 0.216745 0.527952"/>
+    <point index="58" value=" 0.112195 0.194326 0.527952"/>
+    <point index="59" value=" 0.158668 0.158670 0.527952"/>
+    <point index="60" value=" 0.194328 0.112196 0.527952"/>
+    <point index="61" value=" 0.216745 0.058077 0.527952"/>
+    <point index="62" value=" 0.224391 -0.000000 0.527952"/>
+    <point index="63" value=" 0.216745 -0.058077 0.527952"/>
+    <point index="64" value=" 0.194328 -0.112196 0.527952"/>
+    <point index="65" value=" 0.158668 -0.158670 0.527952"/>
+    <point index="66" value=" 0.112195 -0.194328 0.527952"/>
+    <point index="67" value=" 0.058076 -0.216745 0.527952"/>
+    <point index="68" value=" 0.000000 -0.224390 0.527952"/>
+    <point index="69" value=" -0.058077 -0.216745 0.527952"/>
+    <point index="70" value=" -0.112196 -0.194328 0.527952"/>
+    <point index="71" value=" -0.158669 -0.158670 0.527952"/>
+    <point index="72" value=" -0.194329 -0.112196 0.527952"/>
+    <point index="73" value=" -0.102041 0.176739 0.530905"/>
+    <point index="74" value=" -0.052820 0.197128 0.530905"/>
+    <point index="75" value=" 0.000000 0.204079 0.530905"/>
+    <point index="76" value=" 0.052820 0.197128 0.530905"/>
+    <point index="77" value=" 0.102040 0.176739 0.530905"/>
+    <point index="78" value=" 0.144306 0.144308 0.530905"/>
+    <point index="79" value=" 0.176739 0.102041 0.530905"/>
+    <point index="80" value=" 0.197126 0.052820 0.530905"/>
+    <point index="81" value=" 0.204080 -0.000000 0.530905"/>
+    <point index="82" value=" 0.197126 -0.052820 0.530905"/>
+    <point index="83" value=" 0.176739 -0.102041 0.530905"/>
+    <point index="84" value=" 0.144306 -0.144308 0.530905"/>
+    <point index="85" value=" 0.102040 -0.176743 0.530905"/>
+    <point index="86" value=" 0.052820 -0.197128 0.530905"/>
+    <point index="87" value=" 0.000000 -0.204082 0.530905"/>
+    <point index="88" value=" -0.052820 -0.197128 0.530905"/>
+    <point index="89" value=" -0.102041 -0.176743 0.530905"/>
+    <point index="90" value=" -0.144307 -0.144308 0.530905"/>
+    <point index="91" value=" -0.176740 -0.102041 0.530905"/>
+    <point index="92" value=" -0.197127 -0.052820 0.530905"/>
+    <point index="93" value=" -0.204081 -0.000000 0.530905"/>
+    <point index="94" value=" -0.197127 0.052820 0.530905"/>
+    <point index="95" value=" -0.176740 0.102041 0.530905"/>
+    <point index="96" value=" -0.144307 0.144308 0.530905"/>
+    <point index="97" value=" -0.138063 0.079712 0.521463"/>
+    <point index="98" value=" -0.112728 0.112728 0.521463"/>
+    <point index="99" value=" -0.079711 0.138062 0.521463"/>
+    <point index="100" value=" -0.041262 0.153988 0.521463"/>
+    <point index="101" value=" 0.000000 0.159420 0.521463"/>
+    <point index="102" value=" 0.041261 0.153988 0.521463"/>
+    <point index="103" value=" 0.079710 0.138062 0.521463"/>
+    <point index="104" value=" 0.112727 0.112728 0.521463"/>
+    <point index="105" value=" 0.138062 0.079712 0.521463"/>
+    <point index="106" value=" 0.153988 0.041260 0.521463"/>
+    <point index="107" value=" 0.159421 -0.000000 0.521463"/>
+    <point index="108" value=" 0.153988 -0.041260 0.521463"/>
+    <point index="109" value=" 0.138062 -0.079714 0.521463"/>
+    <point index="110" value=" 0.112727 -0.112728 0.521463"/>
+    <point index="111" value=" 0.079710 -0.138065 0.521463"/>
+    <point index="112" value=" 0.041261 -0.153988 0.521463"/>
+    <point index="113" value=" 0.000000 -0.159420 0.521463"/>
+    <point index="114" value=" -0.041262 -0.153988 0.521463"/>
+    <point index="115" value=" -0.079711 -0.138065 0.521463"/>
+    <point index="116" value=" -0.112728 -0.112728 0.521463"/>
+    <point index="117" value=" -0.138063 -0.079714 0.521463"/>
+    <point index="118" value=" -0.153989 -0.041260 0.521463"/>
+    <point index="119" value=" -0.159421 -0.000000 0.521463"/>
+    <point index="120" value=" -0.153989 0.041260 0.521463"/>
+  </shape>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="C_head_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="0" defaultValue="0.000" size="121" max="120">
+    <point index="0" value="0.999"/>
+    <point index="1" value="0.999"/>
+    <point index="2" value="0.999"/>
+    <point index="3" value="0.999"/>
+    <point index="4" value="0.999"/>
+    <point index="5" value="0.999"/>
+    <point index="6" value="0.999"/>
+    <point index="7" value="0.999"/>
+    <point index="8" value="0.999"/>
+    <point index="9" value="0.999"/>
+    <point index="10" value="0.999"/>
+    <point index="11" value="0.999"/>
+    <point index="12" value="0.999"/>
+    <point index="13" value="0.999"/>
+    <point index="14" value="0.999"/>
+    <point index="15" value="0.999"/>
+    <point index="16" value="0.999"/>
+    <point index="17" value="0.999"/>
+    <point index="18" value="0.999"/>
+    <point index="19" value="0.999"/>
+    <point index="20" value="0.999"/>
+    <point index="21" value="0.999"/>
+    <point index="22" value="0.999"/>
+    <point index="23" value="0.999"/>
+    <point index="24" value="0.999"/>
+    <point index="25" value="0.999"/>
+    <point index="26" value="0.999"/>
+    <point index="27" value="0.999"/>
+    <point index="28" value="0.999"/>
+    <point index="29" value="0.999"/>
+    <point index="30" value="0.999"/>
+    <point index="31" value="0.999"/>
+    <point index="32" value="0.999"/>
+    <point index="33" value="0.999"/>
+    <point index="34" value="0.999"/>
+    <point index="35" value="0.999"/>
+    <point index="36" value="0.999"/>
+    <point index="37" value="0.999"/>
+    <point index="38" value="0.999"/>
+    <point index="39" value="0.999"/>
+    <point index="40" value="0.999"/>
+    <point index="41" value="0.999"/>
+    <point index="42" value="0.999"/>
+    <point index="43" value="0.999"/>
+    <point index="44" value="0.999"/>
+    <point index="45" value="0.999"/>
+    <point index="46" value="0.999"/>
+    <point index="47" value="0.999"/>
+    <point index="48" value="0.999"/>
+    <point index="49" value="0.999"/>
+    <point index="50" value="0.999"/>
+    <point index="51" value="0.999"/>
+    <point index="52" value="0.999"/>
+    <point index="53" value="0.999"/>
+    <point index="54" value="0.999"/>
+    <point index="55" value="0.999"/>
+    <point index="56" value="0.999"/>
+    <point index="57" value="0.999"/>
+    <point index="58" value="0.999"/>
+    <point index="59" value="0.999"/>
+    <point index="60" value="0.999"/>
+    <point index="61" value="0.999"/>
+    <point index="62" value="0.999"/>
+    <point index="63" value="0.999"/>
+    <point index="64" value="0.999"/>
+    <point index="65" value="0.999"/>
+    <point index="66" value="0.999"/>
+    <point index="67" value="0.999"/>
+    <point index="68" value="0.999"/>
+    <point index="69" value="0.999"/>
+    <point index="70" value="0.999"/>
+    <point index="71" value="0.999"/>
+    <point index="72" value="0.999"/>
+    <point index="73" value="0.999"/>
+    <point index="74" value="0.999"/>
+    <point index="75" value="0.999"/>
+    <point index="76" value="0.999"/>
+    <point index="77" value="0.999"/>
+    <point index="78" value="0.999"/>
+    <point index="79" value="0.999"/>
+    <point index="80" value="0.999"/>
+    <point index="81" value="0.999"/>
+    <point index="82" value="0.999"/>
+    <point index="83" value="0.999"/>
+    <point index="84" value="0.999"/>
+    <point index="85" value="0.999"/>
+    <point index="86" value="0.999"/>
+    <point index="87" value="0.999"/>
+    <point index="88" value="0.999"/>
+    <point index="89" value="0.999"/>
+    <point index="90" value="0.999"/>
+    <point index="91" value="0.999"/>
+    <point index="92" value="0.999"/>
+    <point index="93" value="0.999"/>
+    <point index="94" value="0.999"/>
+    <point index="95" value="0.999"/>
+    <point index="96" value="0.999"/>
+    <point index="97" value="0.999"/>
+    <point index="98" value="0.999"/>
+    <point index="99" value="0.999"/>
+    <point index="100" value="0.999"/>
+    <point index="101" value="0.999"/>
+    <point index="102" value="0.999"/>
+    <point index="103" value="0.999"/>
+    <point index="104" value="0.999"/>
+    <point index="105" value="0.999"/>
+    <point index="106" value="0.999"/>
+    <point index="107" value="0.999"/>
+    <point index="108" value="0.999"/>
+    <point index="109" value="0.999"/>
+    <point index="110" value="0.999"/>
+    <point index="111" value="0.999"/>
+    <point index="112" value="0.999"/>
+    <point index="113" value="0.999"/>
+    <point index="114" value="0.999"/>
+    <point index="115" value="0.999"/>
+    <point index="116" value="0.999"/>
+    <point index="117" value="0.999"/>
+    <point index="118" value="0.999"/>
+    <point index="119" value="0.999"/>
+    <point index="120" value="0.999"/>
+  </weights>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="C_neck_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="1" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="C_neck_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="2" defaultValue="0.000" size="41" max="94">
+    <point index="33" value="0.001"/>
+    <point index="34" value="0.001"/>
+    <point index="35" value="0.001"/>
+    <point index="36" value="0.001"/>
+    <point index="37" value="0.001"/>
+    <point index="38" value="0.001"/>
+    <point index="39" value="0.001"/>
+    <point index="40" value="0.001"/>
+    <point index="41" value="0.001"/>
+    <point index="42" value="0.001"/>
+    <point index="43" value="0.001"/>
+    <point index="44" value="0.001"/>
+    <point index="45" value="0.001"/>
+    <point index="46" value="0.001"/>
+    <point index="49" value="0.001"/>
+    <point index="50" value="0.001"/>
+    <point index="51" value="0.001"/>
+    <point index="62" value="0.001"/>
+    <point index="63" value="0.001"/>
+    <point index="64" value="0.001"/>
+    <point index="65" value="0.001"/>
+    <point index="66" value="0.001"/>
+    <point index="67" value="0.001"/>
+    <point index="68" value="0.001"/>
+    <point index="69" value="0.001"/>
+    <point index="70" value="0.001"/>
+    <point index="71" value="0.001"/>
+    <point index="72" value="0.001"/>
+    <point index="82" value="0.001"/>
+    <point index="83" value="0.001"/>
+    <point index="84" value="0.001"/>
+    <point index="85" value="0.001"/>
+    <point index="86" value="0.001"/>
+    <point index="87" value="0.001"/>
+    <point index="88" value="0.001"/>
+    <point index="89" value="0.001"/>
+    <point index="90" value="0.001"/>
+    <point index="91" value="0.001"/>
+    <point index="92" value="0.001"/>
+    <point index="93" value="0.001"/>
+    <point index="94" value="0.001"/>
+  </weights>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_clavicle" shape="LF_Iris_01_01_Local_GeoShape" layer="3" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_clavicle" shape="LF_Iris_01_01_Local_GeoShape" layer="4" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="C_Spine00" shape="LF_Iris_01_01_Local_GeoShape" layer="5" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="C_Spine01" shape="LF_Iris_01_01_Local_GeoShape" layer="6" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="C_Spine02" shape="LF_Iris_01_01_Local_GeoShape" layer="7" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="C_Spine03" shape="LF_Iris_01_01_Local_GeoShape" layer="8" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="C_Spine04" shape="LF_Iris_01_01_Local_GeoShape" layer="9" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperLeg_Twist_00" shape="LF_Iris_01_01_Local_GeoShape" layer="10" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperLeg_Twist_01" shape="LF_Iris_01_01_Local_GeoShape" layer="11" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperLeg_Twist_02" shape="LF_Iris_01_01_Local_GeoShape" layer="12" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperLeg_Twist_03" shape="LF_Iris_01_01_Local_GeoShape" layer="13" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperLeg_Twist_04" shape="LF_Iris_01_01_Local_GeoShape" layer="14" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperLeg_Twist_05" shape="LF_Iris_01_01_Local_GeoShape" layer="15" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperArm_Twist_00" shape="LF_Iris_01_01_Local_GeoShape" layer="16" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperArm_Twist_01" shape="LF_Iris_01_01_Local_GeoShape" layer="17" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperArm_Twist_02" shape="LF_Iris_01_01_Local_GeoShape" layer="18" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperArm_Twist_03" shape="LF_Iris_01_01_Local_GeoShape" layer="19" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperArm_Twist_04" shape="LF_Iris_01_01_Local_GeoShape" layer="20" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_UpperArm_Twist_05" shape="LF_Iris_01_01_Local_GeoShape" layer="21" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerLeg_Twist_00" shape="LF_Iris_01_01_Local_GeoShape" layer="22" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerLeg_Twist_01" shape="LF_Iris_01_01_Local_GeoShape" layer="23" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerLeg_Twist_02" shape="LF_Iris_01_01_Local_GeoShape" layer="24" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerLeg_Twist_03" shape="LF_Iris_01_01_Local_GeoShape" layer="25" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerLeg_Twist_04" shape="LF_Iris_01_01_Local_GeoShape" layer="26" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerLeg_Twist_05" shape="LF_Iris_01_01_Local_GeoShape" layer="27" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerArm_Twist_00" shape="LF_Iris_01_01_Local_GeoShape" layer="28" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerArm_Twist_01" shape="LF_Iris_01_01_Local_GeoShape" layer="29" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerArm_Twist_02" shape="LF_Iris_01_01_Local_GeoShape" layer="30" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerArm_Twist_03" shape="LF_Iris_01_01_Local_GeoShape" layer="31" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerArm_Twist_04" shape="LF_Iris_01_01_Local_GeoShape" layer="32" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_LowerArm_Twist_05" shape="LF_Iris_01_01_Local_GeoShape" layer="33" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperLeg_Twist_00" shape="LF_Iris_01_01_Local_GeoShape" layer="34" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperLeg_Twist_01" shape="LF_Iris_01_01_Local_GeoShape" layer="35" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperLeg_Twist_02" shape="LF_Iris_01_01_Local_GeoShape" layer="36" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperLeg_Twist_03" shape="LF_Iris_01_01_Local_GeoShape" layer="37" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperLeg_Twist_04" shape="LF_Iris_01_01_Local_GeoShape" layer="38" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperLeg_Twist_05" shape="LF_Iris_01_01_Local_GeoShape" layer="39" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperArm_Twist_00" shape="LF_Iris_01_01_Local_GeoShape" layer="40" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperArm_Twist_01" shape="LF_Iris_01_01_Local_GeoShape" layer="41" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperArm_Twist_02" shape="LF_Iris_01_01_Local_GeoShape" layer="42" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperArm_Twist_03" shape="LF_Iris_01_01_Local_GeoShape" layer="43" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperArm_Twist_04" shape="LF_Iris_01_01_Local_GeoShape" layer="44" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_UpperArm_Twist_05" shape="LF_Iris_01_01_Local_GeoShape" layer="45" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerLeg_Twist_00" shape="LF_Iris_01_01_Local_GeoShape" layer="46" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerLeg_Twist_01" shape="LF_Iris_01_01_Local_GeoShape" layer="47" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerLeg_Twist_02" shape="LF_Iris_01_01_Local_GeoShape" layer="48" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerLeg_Twist_03" shape="LF_Iris_01_01_Local_GeoShape" layer="49" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerLeg_Twist_04" shape="LF_Iris_01_01_Local_GeoShape" layer="50" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerLeg_Twist_05" shape="LF_Iris_01_01_Local_GeoShape" layer="51" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerArm_Twist_00" shape="LF_Iris_01_01_Local_GeoShape" layer="52" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerArm_Twist_01" shape="LF_Iris_01_01_Local_GeoShape" layer="53" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerArm_Twist_02" shape="LF_Iris_01_01_Local_GeoShape" layer="54" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerArm_Twist_03" shape="LF_Iris_01_01_Local_GeoShape" layer="55" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerArm_Twist_04" shape="LF_Iris_01_01_Local_GeoShape" layer="56" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_LowerArm_Twist_05" shape="LF_Iris_01_01_Local_GeoShape" layer="57" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_ankle" shape="LF_Iris_01_01_Local_GeoShape" layer="58" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_ball" shape="LF_Iris_01_01_Local_GeoShape" layer="59" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_wrist" shape="LF_Iris_01_01_Local_GeoShape" layer="60" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_pinky_00_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="61" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_pinky_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="62" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_pinky_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="63" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_pinky_03_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="64" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_ring_00_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="65" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_ring_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="66" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_ring_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="67" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_ring_03_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="68" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_middle_00_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="69" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_middle_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="70" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_middle_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="71" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_middle_03_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="72" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_index_00_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="73" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_index_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="74" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_index_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="75" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_index_03_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="76" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_thumb_00_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="77" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_thumb_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="78" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_thumb_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="79" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="L_thumb_03_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="80" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_ankle" shape="LF_Iris_01_01_Local_GeoShape" layer="81" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_ball" shape="LF_Iris_01_01_Local_GeoShape" layer="82" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_wrist" shape="LF_Iris_01_01_Local_GeoShape" layer="83" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_pinky_00_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="84" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_pinky_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="85" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_pinky_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="86" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_pinky_03_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="87" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_ring_00_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="88" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_ring_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="89" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_ring_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="90" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_ring_03_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="91" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_middle_00_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="92" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_middle_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="93" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_middle_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="94" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_middle_03_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="95" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_index_00_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="96" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_index_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="97" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_index_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="98" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_index_03_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="99" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_thumb_00_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="100" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_thumb_01_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="101" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_thumb_02_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="102" defaultValue="0.000" size="0" max="0"/>
+  <weights deformer="LF_Iris_01_01_Local_Geo_skinCluster" source="R_thumb_03_FK_CTL" shape="LF_Iris_01_01_Local_GeoShape" layer="103" defaultValue="0.000" size="0" max="0"/>
+</deformerWeight>

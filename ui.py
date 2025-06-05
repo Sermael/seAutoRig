@@ -13,11 +13,11 @@ from PySide6 import QtWidgets
 from PySide6 import QtGui
 from shiboken6 import getCppPointer
 
-from .scripts import utils
-from .scripts import guides
-from .scripts import builder
 from .scripts import project
+from .scripts import builder
+from .scripts import guides
 from .scripts.rigging import skin
+from .scripts.rigging import utils
 
 importlib.reload(utils)
 importlib.reload(guides)

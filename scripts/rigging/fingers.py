@@ -1,7 +1,7 @@
 """ Create fingers module - Sergio Efigenio - 05/02/2023"""
 from maya import cmds
 from .offset import offset_grp
-
+from . import utils
 
 class Fingers(object):
     def __init__(self):
@@ -11,6 +11,7 @@ class Fingers(object):
         for side in 'LR':
             module_grp = cmds.group(n='{}_Fingers_GRP'.format(side), em=True)
             cmds.parent(module_grp, '{}_wrist'.format(side))
+            finger_controls = []
             for jnt in ['pinky', 'ring', 'middle', 'index', 'thumb']:
                 for i in range(4):
                     joint = '{}_{}_0{}'.format(side, jnt, i)
@@ -19,7 +20,7 @@ class Fingers(object):
                         offset_grp([joint], 'GRP')
                         cmds.parent(joint + '_GRP', module_grp)
                     offset_grp([joint], 'FIST')
-                    cmds.circle(n='{}Shape'.format(joint), nr=(1, 0, 0), r=self.ctlSize, ch=False)
+                    ctl = cmds.circle(n='{}Shape'.format(joint), nr=(1, 0, 0), r=self.ctlSize, ch=False)
                     cmds.parent('{}ShapeShape'.format(joint), joint, r=True, s=True)
                     cmds.delete(joint + 'Shape')
                     cmds.setAttr(end_joint + '.drawStyle', 2)
@@ -27,3 +28,6 @@ class Fingers(object):
                     color = 6 if side == 'L' else 13
                     cmds.setAttr('{}'.format(joint) + '.overrideEnabled', True)
                     cmds.setAttr('{}'.format(joint) + '.overrideColor', color)
+                    print('{}'.format(joint) + "ShapeShape.lineWidth")
+                    cmds.setAttr('{}'.format(joint) + "ShapeShape.lineWidth", 2)
+                    

@@ -54,6 +54,7 @@ class Extremity(object):
             cmds.select(fingers, hi=True)
             for finger in cmds.ls(sl=True):
                 cmds.rename(finger, finger + '_FK_CTL')
+                
 
         # -- Lists fk ik Chain
         cmds.select('{}_FK_CTL'.format(self.jnt_chain[0]), hi=True)
@@ -75,6 +76,7 @@ class Extremity(object):
             color = 6 if self.side == 'L' else 13
             cmds.setAttr('{}.overrideEnabled'.format(jnt), True)
             cmds.setAttr('{}.overrideColor'.format(jnt), color)
+            cmds.setAttr('{}ShapeShape.lineWidth'.format(jnt), 2)
             cmds.parent('{}ShapeShape'.format(jnt), jnt, r=True, s=True)
             cmds.delete(jnt + 'Shape')
 
@@ -120,7 +122,7 @@ class Extremity(object):
 
         # -- Create PV Ctl
         pv_ctl = cmds.circle(n='{}_{}_PV_CTL'.format(self.side, self.limb), nr=(1, 0, 0), r=self.ctlSize * 0.5, 
-                             d=1, s=4, ch=False)
+                             d=1, s=3, ch=False)
         offset.offset_grp(pv_ctl, 'GRP')
         offset.offset_grp(pv_ctl, 'OFF')
         offset.offset_grp(pv_ctl, 'SDK')
@@ -247,7 +249,7 @@ class Extremity(object):
                         cmds.setAttr('.overrideColor', 4)
 
                     if twist == 'Upper':
-                        cmds.connectAttr(self.jnt_chain[0] + '.scale', twist_joint + '.scale')
+                        # cmds.connectAttr(self.jnt_chain[0] + '.scale', twist_joint + '.scale')
                         upper_twist.append(twist_joint)
                         if joints > 0:
                             cmds.setAttr(twist_joint + '.translateX', first_pos[0] / 4)
@@ -255,7 +257,7 @@ class Extremity(object):
                             cmds.setAttr(twist_joint + '.translateX', first_pos[0] / 8)
 
                     elif twist == 'Lower':
-                        cmds.connectAttr(self.jnt_chain[1] + '.scale', twist_joint + '.scale')
+                        # cmds.connectAttr(self.jnt_chain[1] + '.scale', twist_joint + '.scale')
                         lower_twist.append(twist_joint)
                         if joints > 0:
                             cmds.setAttr(twist_joint + '.translateX', sec_pos[0] / 4)
@@ -355,7 +357,13 @@ class Extremity(object):
 
         for i in range(3):
             ctl = cmds.circle(n='{0}_{1}_Bend_0{2}_CTL'.format(self.side, self.limb, i),
-                              nr=(1, 0, 0), r=self.ctlSize, d=1, s=4, ch=False)
+                              nr=(1, 0, 0), r=self.ctlSize * 1.1, d=1, s=4, ch=False)
+            
+            cmds.setAttr('{}.overrideColor'.format(ctl[0]), 29)
+            
+            shape_ctl = str(ctl[0])+".cv[0:4]"
+            cmds.xform(shape_ctl, r=True, ro=(45, 0, 0))
+
             offset.offset_grp(ctl, 'GRP')
             offset.offset_grp(ctl, 'OFF')
 
@@ -528,7 +536,8 @@ class Extremity(object):
                 cmds.connectAttr(self.jnt_chain[0] + '.scaleY', scale_mdv + '.i1y')
                 cmds.connectAttr(self.jnt_chain[0] + '.scaleZ', scale_mdv + '.i1z')
                 for jnt in upper_twist:
-                    cmds.connectAttr(scale_mdv + '.o', jnt + '.s', force=True)
+                    cmds.connectAttr(scale_mdv + '.outputX', jnt + '.scaleX', force=True)
+                    
             else:
                 cmds.connectAttr(scale_bc + '.output.outputG', volume_md + '.i2x')
                 cmds.connectAttr(volume_md + '.ox', volume_bc + '.color1.color1R.')
@@ -537,7 +546,8 @@ class Extremity(object):
                 cmds.connectAttr(self.jnt_chain[1] + '.scaleY', scale_mdv + '.i1y')
                 cmds.connectAttr(self.jnt_chain[1] + '.scaleZ', scale_mdv + '.i1z')
                 for jnt in lower_twist:
-                    cmds.connectAttr(scale_mdv + '.o', jnt + '.s', force=True)
+                    cmds.connectAttr(scale_mdv + '.outputX', jnt + '.scaleX', force=True)
+
 
         # -- Connect FK Scale
         cmds.connectAttr(scale_bc + '.output.outputR', self.jnt_chain[0] + '.scaleX')
@@ -724,9 +734,13 @@ class Extremity(object):
             cmds.setAttr(i + '.overrideEnabled', True)
             if self.side == 'L':
                 cmds.setAttr(i + '.overrideColor', 6)
+                if "Bend" in i:
+                    cmds.setAttr(i + '.overrideColor', 29)
             elif self.side == 'R':
                 cmds.setAttr(i + '.overrideColor', 13)
-        # self.lineWidth(ctls, 1.5)
+                if "Bend" in i:
+                    cmds.setAttr(i + '.overrideColor', 31)
+        self.lineWidth(ctls, 2)
 
         # -- hide fk control jnts
         for ctl in fk_chain:
@@ -736,13 +750,14 @@ class Extremity(object):
                 count = 4 if jnt == 'thumb' else 5
                 for i in range(count):
                     cmds.setAttr('{}_{}_0{}_FK_CTL'.format(self.side, jnt, i) + '.drawStyle', 2)
-        # self.lineWidth(fk_chain, 1.5)
+                    cmds.setAttr('{}_{}_0{}_FK_CTLShapeShape'.format(self.side, jnt, i) + '.lineWidth', 2)
+
         for jnt in self.jnt_chain:
             cmds.setAttr(jnt + '.overrideDisplayType', 1)
 
     def limb_ctl(self):
         """Create Main control."""
-        main_ctl = cmds.circle(n='{}_{}_Main_CTL'.format(self.side, self.limb), nr=(1, 0, 0), r=self.ctlSize * 1.1, d=1,
+        main_ctl = cmds.circle(n='{}_{}_Main_CTL'.format(self.side, self.limb), nr=(1, 0, 0), r=self.ctlSize * 1.4, d=1,
                                s=20, ch=False)
         offset.offset_grp(main_ctl, 'GRP')
         cmds.delete(cmds.parentConstraint(self.jnt_chain[0], main_ctl[0] + '_GRP', mo=False))
